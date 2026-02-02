@@ -20,7 +20,7 @@ const Nav = () => {
             <nav>
                 <a href='/'><img src={iotLogo} alt="IOT logo" className='iotLogos'/></a>
                 <ul className='ulNav'>
-                   <li ><a >INICIO</a></li>
+                   <li ><a href='/'>INICIO</a></li>
                     <li><a href='/quienes'>QUIENES SOMOS</a></li>
                     <li><a href='/servicios'>SERVICIOS</a></li>
                     <li><a href='/proyectos'>PROYECTOS</a></li>
