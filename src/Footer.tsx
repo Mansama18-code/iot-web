@@ -1,8 +1,5 @@
 import iotLogo from './assets/iot-ing.png'
-import fb from './assets/fb.png'
-import wa from './assets/wa.png'
-import ig from './assets/ig.png'
-import yt from './assets/yt.png'
+
 
 import './Footer.css'
 
