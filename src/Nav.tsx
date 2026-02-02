@@ -20,11 +20,11 @@ const Nav = () => {
             <nav>
                 <a href='/'><img src={iotLogo} alt="IOT logo" className='iotLogos'/></a>
                 <ul className='ulNav'>
-                    <li><a href='/'>INICIO</a></li>
-                    <li><a href='/quienes'>QUIENES SOMOS</a></li>
-                    <li><a href='/Servicios'>SERVICIOS</a></li>
-                    <li><a href='/Proyectos'>PROYECTOS</a></li>
-                    <li><a href='/Contactanos'>CONTÁCTANOS</a></li>   
+                    <li><a href='/pages/Home'>INICIO</a></li>
+                    <li><a href='/pages/quienes'>QUIENES SOMOS</a></li>
+                    <li><a href='/pages/Servicios'>SERVICIOS</a></li>
+                    <li><a href='/pages/Proyectos'>PROYECTOS</a></li>
+                    <li><a href='/pages/Contactanos'>CONTÁCTANOS</a></li>   
                 </ul>
             </nav>
             {/* AQUÍ VA LA SECCIÓN DE QUE CAMBIA */}
