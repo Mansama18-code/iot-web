@@ -1,21 +1,24 @@
+
+
 //import { useState } from 'react'
 import iotLogo from './assets/iot-ing.png';
 //import { useRef} from 'react';
 //import backGround from './assets/bg-img.png'
 import './Nav.css';
-import Headers from './headers/Headers.tsx';
+
 
 
 
 const Nav = () => {
   //const [count, setCount] = useState(0)
     
+  
     
     return (
       
         
     
-        <header className="menu-logo">
+        <div>
             
             <nav>
                 <a href='/'><img src={iotLogo} alt="IOT logo" className='iotLogos'/></a>
@@ -28,9 +31,9 @@ const Nav = () => {
                 </ul>
                
             </nav>
-            {/* AQUÍ VA LA SECCIÓN DE QUE CAMBIA */}
-            <Headers />
-        </header>
+            
+        </div>
+        
     
     )
 }

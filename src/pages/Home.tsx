@@ -2,6 +2,8 @@ import Nav from '../Nav.tsx';
 import Footer from '../Footer.tsx';
 //import { useRef } from 'react';
 import './Home.css'
+import Headers from '../headers/Headers.tsx';
+
 //import testIcon from '../assets/imagen_test.jpg';
 
 //import './App.css'
@@ -11,17 +13,29 @@ function Home() {
   
   return (
     <>
-      <Nav />
-  
+      <header className="menu-logo">
+        <Nav />
+        <Headers />
+      </header>
+      
+      
       <section id='servicios' className="py-24 bg-white dark:bg-slate-900">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="max-w-7xl mx-auto px-6" >
+          <div className="text-center max-w-3xl mx-auto mb-16" >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white">Expertos en Transformación Digital</h2>
             <p className="text-lg text-slate-600 dark:text-slate-400">
               Una empresa panameña especializada en soluciones avanzadas innovadoras. Nuestro compromiso es aportar valor real mediante ingeniería aplicada, análisis técnico riguroso y una ejecución que integra desempeño, sostenibilidad y transformación digital.
             </p>
           </div>
 
+          
+          <div className="text-center max-w-3xl mx-auto mb-16 ">
+            <br></br><br></br>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 dark:text-white">Nuestros Servicios</h2>
+            <p className="text-lg text-slate-600 dark:text-slate-400">
+              Ofrecemos servicios enfocados en los siguientes ámbitos: 
+            </p>
+          </div>
           <div className="grid md:grid-cols-3 gap-8 ">
             <div  className="text-start group p-8 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
               <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-all">
