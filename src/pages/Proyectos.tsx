@@ -30,7 +30,7 @@ function Proyectos() {
           <div className="grid md:grid-cols-3 gap-8 ">
             
             <div  className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/mamey.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/mamey.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className=" text-xl font-bold mb-3 dark:text-white">Electromecánica | Casa Mamey</h3>              
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
@@ -46,7 +46,7 @@ function Proyectos() {
 
           <div className="grid md:grid-cols-3 gap-8 ">
             <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/machetazo.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/machetazo.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 dark:text-white">Automatización | El Machetazo</h3>
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
@@ -62,7 +62,7 @@ function Proyectos() {
           <div className="grid md:grid-cols-3 gap-8 ">
 
              <div className="text-start group  rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/puma.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/puma.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 dark:text-white">Gasolinera Puma</h3> 
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
@@ -70,7 +70,7 @@ function Proyectos() {
             </div>
 
             <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/aeropuerto.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/aeropuerto.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 dark:text-white">Aeropuerto Tocumen | Domestic Luggage</h3>
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
@@ -78,7 +78,7 @@ function Proyectos() {
             </div>
 
             <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/hospital.webp" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/hospital.webp" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 dark:text-white">Cuarto Resonador | Hospital Manuel Amador Guerrero</h3>
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
@@ -93,7 +93,7 @@ function Proyectos() {
           <div className="grid md:grid-cols-3 gap-8 ">
           
             <div className="text-start group  rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/testimage.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/testimage.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 dark:text-white">Casa Dylan</h3>
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto... </p>
@@ -102,7 +102,7 @@ function Proyectos() {
             </div>
 
             <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/src/assets/background-image/las-costas.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
+              <img src="/background-image/las-costas.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
               <div className="p-8">
                 <h3 className="text-xl font-bold mb-3 dark:text-white">Hotel Las Costas</h3>
                 <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto... </p>
