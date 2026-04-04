@@ -2,7 +2,7 @@ import './Headers.css';
 
 
 
-const Headers3 = () => {
+const Headers4 = () => {
 
 
 
@@ -18,11 +18,11 @@ const Headers3 = () => {
                
                 <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
                     
-                      <span className="text-primary">  SOMOS INGENIERIA IOT </span>
+                      <span className="text-primary">  CONVERSEMOS </span>
                         {/*<span className="text-primary italic">NUESTROS</span>*/} 
                 </h1>
                 <p className="text-xl md:text-2xl text-slate-300 font-light max-w-xl leading-relaxed">
-                    Empresa 100% Panameña especializada en soluciones de automatización, control y monitoreo para la industria y edificaciones inteligentes.
+                    Compartenos tus proyectos, inquietudes o necesidades para ofrecerte las mejores soluciones del mercado.
                 </p>
                 
             </div>
@@ -33,4 +33,4 @@ const Headers3 = () => {
     </section>
     )
 }
-export default Headers3;
+export default Headers4;

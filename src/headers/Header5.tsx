@@ -2,10 +2,7 @@ import './Headers.css';
 
 
 
-const Headers3 = () => {
-
-
-
+const Headers5 = () => {
 
     return (
     <section className="relative h-screen flex items-center overflow-hidden">
@@ -18,11 +15,11 @@ const Headers3 = () => {
                
                 <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
                     
-                      <span className="text-primary">  SOMOS INGENIERIA IOT </span>
+                      <span className="text-primary">  PROYECTOS REALIZADOS </span>
                         {/*<span className="text-primary italic">NUESTROS</span>*/} 
                 </h1>
                 <p className="text-xl md:text-2xl text-slate-300 font-light max-w-xl leading-relaxed">
-                    Empresa 100% Panameña especializada en soluciones de automatización, control y monitoreo para la industria y edificaciones inteligentes.
+                    Conoce lo que dicen nuestros clientes sobre nosotros y los proyectos que hemos realizado. Estamos orgullosos de compartir nuestras experiencias y resultados contigo.
                 </p>
                 
             </div>
@@ -33,4 +30,4 @@ const Headers3 = () => {
     </section>
     )
 }
-export default Headers3;
+export default Headers5;

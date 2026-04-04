@@ -75,7 +75,7 @@ function Servicios() {
         </div>
       </section>
       <div className="text-center max-w-4xl mx-auto mb-16 ">
-        <button className="bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded" onClick={() => window.location.href = '#contacto'}> SOLICITAR PRESUPUESTO </button>
+        <button className="bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded" onClick={() => window.location.href = '#contacto'}> COMUNICATE CON NOSOTROS </button>
       </div>
 
      

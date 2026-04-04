@@ -1,7 +1,7 @@
 import Nav from '../Nav.tsx'
 import Footer from '../Footer.tsx'
 import './quienes.css'
-import Headers2 from '../headers/Header2.tsx';
+import Headers3 from '../headers/Header3.tsx';
 function quienes() {
  // const [count, setCount] = useState(0)
 
@@ -9,7 +9,7 @@ function quienes() {
     <>
       <header className="menu-logo">
         <Nav />
-        <Headers2 />
+        <Headers3 />
       </header>
       <div className='quienesSomos'><br></br>
         <h1> <b> Sobre Nosotros </b>  </h1>
