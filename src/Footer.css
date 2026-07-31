@@ -1,7 +1,7 @@
 .backColor {
     display: block;
     
-    background-color: #0f172a;
+    background-color: #3A7BD5;
     
     height: auto;
     width: 100%;
@@ -9,6 +9,26 @@
     padding-left: 50px;
     padding-right: 50px;
     box-sizing: border-box;
+}
+
+
+.footy {
+    flex-direction:column;
+}
+.footy-footy{
+    width:100%;
+
+
+}
+.footy-footy-footy{
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-bottom: 20px;
+    gap:.75rem;
+    width:100%;
 }
 
 .mainFoot {

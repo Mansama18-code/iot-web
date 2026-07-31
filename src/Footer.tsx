@@ -29,7 +29,7 @@ const Footer = () => {
                       <input type="text" placeholder='Ingresa tu correo' />
                       <button>SUSCRIBIRSE</button>
                   </div>
-            </div>*/}
+            </div>
             
           <div className='mainFoot2'>
               <ul className='ulFoot'>
@@ -45,12 +45,26 @@ const Footer = () => {
           <div className="mainFoot2">
                     {/*<h3><b>SOBRE NOSOTROS</b></h3>*/}
             
-                <p className='copyright'>© 2026 Ingeniería IOT. Todos los derechos reservados.</p> 
+                  {/* <p className='copyright'>© 2026 Ingeniería IOT. Todos los derechos reservados.</p> 
             
                     
                
-          </div>
+       </div>*/}
         
+          <div className="footer-interior footy">
+            <div className="footer-arriba footy-footy" >
+            <div className="footer-lema">INNOVAMOS<span className="punto">•</span>AUTOMATIZAMOS<span className="punto">•</span>CONECTAMOS</div>
+            </div>
+            <div className='footy-footy-footy'>
+                <span className="footer-copy">© 2026 Ingeniería IOT. Todos los derechos reservados.</span>
+                <ul className="footer-links">
+                    <li><a href="#">Privacidad</a></li> {/*<li><a href="#">Términos de Uso</a></li>*/}
+                    {/*<li><a href="#">Mapa del Sitio</a></li> */} <li><a href="#">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+                
+
         </div>
         
     

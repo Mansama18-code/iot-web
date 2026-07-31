@@ -19,9 +19,9 @@ const Nav = () => {
         
     
         <div>
-            
+            {/*
             <nav>
-                <a href='/'><img src={iotLogo} alt="IOT logo" className='iotLogos'/></a>
+                
                 <ul className='ulNav'>
                    <li ><a href='/'>INICIO</a></li>
                     <li><a href='/quienes'>QUIENES SOMOS</a></li>
@@ -31,8 +31,46 @@ const Nav = () => {
                 </ul>
                
             </nav>
+
+            */}
             
+
+            <div className="barra-top">
+            <div className="barra-top-interior">
+                
+                
+                <a href='/'><img src={iotLogo} alt="IOT logo" className='iotLogos'/></a>
+                <div className="logo-lema">INNOVAMOS<span className="punto">•</span>AUTOMATIZAMOS<span className="punto">•</span>CONECTAMOS</div>
+                    {/*
+                <div className="top-acciones">
+                <a href="#">👤 Login</a>
+                <a href="#">📍 Contacto</a>
+                <div className="buscador">
+                    <input type="text" placeholder="Buscar..." />
+                    <button>🔍</button>
+                </div>
+                </div> */}
+            </div>
+            </div>
+
+
+
+            <nav >
+                <div className="nav-interior">
+                    <ul className="nav-links">
+                    <li><a href="#inicio" className="activo">Inicio</a></li>
+                        {/*<li><a href="#" onClick={(e) => abrirModalProductos(e)}>Productos</a></li>*/}
+                        {/*<li><a href="#">Capacitacion</a></li>
+                    <li><a href="#">Proyectos</a></li>*/}
+                        {/*<li><a href="#">Soporte</a></li>*/}
+                        {/*<li><a href="#" onClick={(e) => abrirModal(e, 'ddc')}>Descargas</a></li>
+                    <li><a href="#">Carreras</a></li>*/}
+                    </ul>
+                </div>
+            </nav>
         </div>
+
+        
         
     
     )
