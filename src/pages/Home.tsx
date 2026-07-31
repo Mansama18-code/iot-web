@@ -20,7 +20,9 @@ function Home() {
         <head>    
             <title>Ingeniería IOT</title>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
+          <link rel="icon" type="image/png" href="/ingenieria_logo.png"/>
+
         </head>
         <body>
         <Nav />
