@@ -29,7 +29,8 @@ function Home() {
               <div>
             {/*<h2 >📰 Inicio</h2>*/}
                 <h2 className="noticias-sub">Mantente al tanto de los proyectos que hemos desarrollado y lo que viene próximamente en Ingeniería IOT.</h2>
-              </div><br></br>
+          </div><br></br>
+          {/*
               <div className="noticias-grid">
 
                 <div className="noticia-card destacada">
@@ -98,7 +99,7 @@ function Home() {
                   </div>
                 </div>
 
-              </div>
+              </div>*/}
           </div>
 
           {/*<!-- SERVICIOS -->*/}
@@ -149,28 +150,28 @@ function Home() {
             </div>
           </div>
 
-          {/*<!-- DESCARGAS en página -->*/}
+          {/* <!-- DESCARGAS en página -->
           <div className="seccion-descargas">
             <h2>📥 Descargas</h2>
             <div className="desc-grid">
-              <div className="desc-tarjeta" > {/*onclick="abrirModal(null,'ddc')"*/}
+              <div className="desc-tarjeta" > {/*onclick="abrirModal(null,'ddc')"
                 <div className="desc-icono">🔧</div>
                 <h3>Materiales DDC</h3>
                 <p>Controladores, sensores, actuadores y accesorios para sistemas de control directo digital.</p>
                 <span className="btn-ver">Ver Catálogo →</span>
               </div>
-              {/*onclick="abrirModal(null,'mep')"*/}
+              {/*onclick="abrirModal(null,'mep')"
               <div className="desc-tarjeta" >
                 <div className="desc-icono">💻</div>
-                {/*style="font-size:.65rem;background:var(--azul-oscuro);color:#fff;padding:.1rem .4rem;border-radius:20px;vertical-align:middle;"*/}
+                {/*style="font-size:.65rem;background:var(--azul-oscuro);color:#fff;padding:.1rem .4rem;border-radius:20px;vertical-align:middle;"
                 <h3>Software MEP <span className='stilo'>IOT</span></h3>
                 <p>Software propietario de Ingeniería IOT para diseño MEP: plomería, HVAC, incendio, eléctrico y automatización.</p>
                 <span className="btn-ver">Ver Software →</span>
               </div>
-              {/*onclick="abrirModal(null,'revit')"*/}
+              {/*onclick="abrirModal(null,'revit')"
               <div className="desc-tarjeta" >
                 <div className="desc-icono">🧩</div>
-                {/*style="font-size:.65rem;background:var(--naranja);color:#fff;padding:.1rem .4rem;border-radius:20px;vertical-align:middle;"*/}
+                {/*style="font-size:.65rem;background:var(--naranja);color:#fff;padding:.1rem .4rem;border-radius:20px;vertical-align:middle;"
                 <h3>Plugins Revit <span className="stilo">NUEVO</span></h3>
                 <p>Extensiones para Autodesk Revit desarrolladas por Ingeniería IOT para MEP, BIM y automatización.</p>
                 <span className="btn-ver">Ver Plugins →</span>
@@ -182,7 +183,7 @@ function Home() {
                 <span className="btn-ver">Ver Versiones →</span>
               </div>
             </div>
-          </div>
+          </div>*/}
       
           <Footer />
       </body>
