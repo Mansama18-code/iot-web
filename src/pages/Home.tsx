@@ -27,9 +27,9 @@ function Home() {
           {/*<!-- INICIO -->*/}
           <div className="seccion-noticias" id="inicio">
               <div>
-            {/*<h2 >📰 Inicio</h2>*/}
-                <h2 className="noticias-sub">Mantente al tanto de los proyectos que hemos desarrollado y lo que viene próximamente en Ingeniería IOT.</h2>
-          </div><br></br>
+            {/*<h2 >📰 Inicio</h2> Mantente al tanto de los proyectos que hemos desarrollado y lo que viene próximamente en Ingeniería IOT*/}
+                <h2 className="noticias-sub"> Una empresa panameña especializada en soluciones avanzadas innovadoras. Nuestro compromiso es aportar valor real mediante ingeniería aplicada, análisis técnico riguroso y una ejecución que integra desempeño, sostenibilidad y transformación digital.</h2>
+          </div>
           {/*
               <div className="noticias-grid">
 
