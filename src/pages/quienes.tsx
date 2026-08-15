@@ -2,7 +2,6 @@ import Nav from '../Nav.tsx'
 import Footer from '../Footer.tsx'
 import Banner from './banner.tsx'
 import './quienes.css'
-import Headers3 from '../headers/Header3.tsx';
 function quienes() {
  // const [count, setCount] = useState(0)
 

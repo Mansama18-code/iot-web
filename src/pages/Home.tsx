@@ -1,9 +1,6 @@
 import Nav from '../Nav.tsx';
 import Banner from './banner.tsx';
-
 import Footer from '../Footer.tsx';
-//import { useRef } from 'react';
-
 import './Home.css'
 
 //import Headers from '../headers/Headers.tsx';
