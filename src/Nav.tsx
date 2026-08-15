@@ -58,10 +58,10 @@ const Nav = () => {
             <nav >
                 <div className="nav-interior">
                     <ul className="nav-links">
-                    <li><a href="#inicio" className="activo">Inicio</a></li>
+                    <li><a href="/" className="activo">Inicio</a></li>
                         {/*<li><a href="#" onClick={(e) => abrirModalProductos(e)}>Productos</a></li>*/}
-                        {/*<li><a href="#">Capacitacion</a></li>
-                    <li><a href="#">Proyectos</a></li>*/}
+                    <li><a href="/Proyectos">Proyectos</a></li>
+                    <li><a href="/quienes">Quienes Somos</a></li>
                         {/*<li><a href="#">Soporte</a></li>*/}
                         {/*<li><a href="#" onClick={(e) => abrirModal(e, 'ddc')}>Descargas</a></li>
                     <li><a href="#">Carreras</a></li>*/}

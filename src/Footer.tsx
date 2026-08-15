@@ -1,4 +1,4 @@
-//import iotLogo from './assets/iot-ing.png'
+
 
 
 import './Footer.css'

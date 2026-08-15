@@ -1,4 +1,5 @@
 import Nav from '../Nav.tsx';
+import Banner from './banner.tsx';
 
 import Footer from '../Footer.tsx';
 //import { useRef } from 'react';
@@ -26,12 +27,15 @@ function Home() {
         </head>
         <body>
         <Nav />
+
+        
+        <Banner />
           {/*<!-- INICIO -->*/}
-          <div className="seccion-noticias" id="inicio">
+          {/*<div className="seccion-noticias" id="inicio">
               <div>
-            {/*<h2 >📰 Inicio</h2> Mantente al tanto de los proyectos que hemos desarrollado y lo que viene próximamente en Ingeniería IOT*/}
-                <h2 className="noticias-sub"> Una empresa panameña especializada en soluciones avanzadas innovadoras. Nuestro compromiso es aportar valor real mediante ingeniería aplicada, análisis técnico riguroso y una ejecución que integra desempeño, sostenibilidad y transformación digital.</h2>
-          </div>
+            <h2 >📰 Inicio</h2> Mantente al tanto de los proyectos que hemos desarrollado y lo que viene próximamente en Ingeniería IOT
+             <h2 className="noticias-sub"> </h2>
+          </div>*/}
           {/*
               <div className="noticias-grid">
 
@@ -101,9 +105,9 @@ function Home() {
                   </div>
                 </div>
 
-              </div>*/}
-          </div>
-
+              </div>
+          </div>*/}
+          <br></br>
           {/*<!-- SERVICIOS -->*/}
           <div className="seccion-tarjetas">
             <h2>Nuestros Servicios</h2>
