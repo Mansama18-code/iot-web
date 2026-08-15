@@ -1,6 +1,6 @@
 import Nav from '../Nav.tsx'
 import Footer from '../Footer.tsx'
-import Banner from './banner.tsx'
+import Banner from './Bannerx.tsx';
 import './Home.css'
 
 function Proyectos() {

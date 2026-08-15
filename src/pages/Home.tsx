@@ -1,5 +1,5 @@
 import Nav from '../Nav.tsx';
-import Banner from './banner.tsx';
+import Banner from './Bannerx.tsx';
 import Footer from '../Footer.tsx';
 import './Home.css'
 
