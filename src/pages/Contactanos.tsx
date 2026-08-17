@@ -1,6 +1,7 @@
 import Nav from '../Nav.tsx';
 import Footer from '../Footer.tsx';
 import Banner from './Bannerx.tsx';
+import redes from '/instagram.svg';
 import './Contactanos.css';
 
 //EN ESTE ESPACIO DEBO ASEGURAR LA CONEXIÓN del 
@@ -50,7 +51,7 @@ function Contactanos() {
               <label htmlFor="mensaje">Mensaje:</label>
               <textarea id="mensaje" name="mensaje" required></textarea>
 
-              <button type="submit">Enviar</button>
+              <button type="submit" className="boton-enviar">Enviar</button>
             </form>
           </div>
           <div>
@@ -59,7 +60,7 @@ function Contactanos() {
              
               <a href="https://www.instagram.com/ingenieriaiot/" target="_blank" rel="noopener noreferrer">
                 <center>
-                  <img src="../src/assets/instagram.svg" alt="Instagram" width="50" height="50" />
+                  <img src={redes} alt="Instagram" width="50" height="50" />
                 </center>
               </a>
               <br></br>
