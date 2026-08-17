@@ -1,7 +1,13 @@
 import Nav from '../Nav.tsx'
 import Footer from '../Footer.tsx'
 import Banner from './Bannerx.tsx';
-import './quienes.css'
+import './quienes.css';
+import ingenieria from '/program.png';
+import analisis from '/exploratory-analysis.png';
+import desempeno from '/good-feedback.png';
+import sostenibilidad from '/planet-earth.png';
+import digital from '/manufacturing.png';
+
 function quienes() {
  // const [count, setCount] = useState(0)
 
@@ -50,31 +56,31 @@ function quienes() {
       <div className="seccion-imagen">
         <div className="imagen-container">
           <div>
-             <img src="../assets/program.png" alt="Engineering" width="70px" height="70px" />
+             <img src={ingenieria} alt="Engineering" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Ingeniería Aplicada</h4>
         </div>
         <div className="imagen-container">
           <div>
-            <img src="../src/assets/exploratory-analysis.png" alt="Analysis" width="70px" height="70px" />
+            <img src={analisis} alt="Analysis" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Análisis Riguroso</h4>   
         </div>
         <div className="imagen-container">
           <div>
-            <img src="../src/assets/good-feedback.png" alt="Performance" width="70px" height="70px" />
+            <img src={desempeno} alt="Performance" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Desempeño</h4>
         </div>
         <div className="imagen-container">
           <div>
-            <img src="../src/assets/planet-earth.png" alt="Sostenibility" width="70px" height="70px" />
+            <img src={sostenibilidad} alt="Sostenibility" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Sostenibilidad</h4>
         </div>
         <div className="imagen-container">
           <div>
-            <img src="../src/assets/manufacturing.png" alt="Digital Transformation" width="70px" height="70px" />
+            <img src={digital} alt="Digital Transformation" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Transformación Digital</h4>
         </div>
