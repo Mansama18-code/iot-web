@@ -50,7 +50,7 @@ function quienes() {
       <div className="seccion-imagen">
         <div className="imagen-container">
           <div>
-             <img src="../src/assets/program.png" alt="Engineering" width="70px" height="70px" />
+             <img src="../assets/program.png" alt="Engineering" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Ingeniería Aplicada</h4>
         </div>
