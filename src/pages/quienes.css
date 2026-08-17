@@ -1,6 +1,55 @@
 .quienesSomos {
 
-    padding: 40px;
-    color: #165A7A;
-    font-size: 18px;
+    padding: 20px;
+    /*color: #165A7A;*/
+    color: #202020;
+    font-size: 14px;
+}
+
+.seccion-imagen {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+
+}
+
+.imagen-container {
+    display: block;
+    padding: 20px;
+    
+
+
+
+}
+
+.imagen-container div{
+        display: flex;
+        justify-content: center;
+        
+}
+
+
+
+.imagen-titulo {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 940px) {
+    .seccion-imagen {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin: 0 auto;
+    }
+  
+
 }

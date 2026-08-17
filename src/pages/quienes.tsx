@@ -14,8 +14,11 @@ function quienes() {
        
       </header>
       <br></br>
+      <div >
+          <center>🇵🇦</center>
+      </div>
       <div className="seccion-tarjetas">
-            <h3>INGENIERÍA IOT es una empresa panameña especializada en soluciones avanzadas de automatización, 
+            <h3 className="quienesSomos">INGENIERÍA IOT: Somos una empresa panameña especializada en soluciones avanzadas de automatización, 
           control y tecnologías MEP, HVAC, IoT y edificaciones inteligentes. Nuestro equipo está conformado 
           por ingenieros idóneos con amplia experiencia en diseño, integración y puesta en marcha de 
           sistemas críticos para proyectos residenciales, comerciales e industriales. Operamos bajo 
@@ -44,7 +47,40 @@ function quienes() {
         
           </h3>
       </div>
-      
+      <div className="seccion-imagen">
+        <div className="imagen-container">
+          <div>
+             <img src="./src/assets/program.png" alt="Engineering" width="70px" height="70px" />
+          </div>
+          <h4 className="imagen-titulo">Ingeniería Aplicada</h4>
+        </div>
+        <div className="imagen-container">
+          <div>
+            <img src="./src/assets/exploratory-analysis.png" alt="Analysis" width="70px" height="70px" />
+          </div>
+          <h4 className="imagen-titulo">Análisis Riguroso</h4>   
+        </div>
+        <div className="imagen-container">
+          <div>
+            <img src="./src/assets/good-feedback.png" alt="Performance" width="70px" height="70px" />
+          </div>
+          <h4 className="imagen-titulo">Desempeño</h4>
+        </div>
+        <div className="imagen-container">
+          <div>
+            <img src="./src/assets/planet-earth.png" alt="Sostenibility" width="70px" height="70px" />
+          </div>
+          <h4 className="imagen-titulo">Sostenibilidad</h4>
+        </div>
+        <div className="imagen-container">
+          <div>
+            <img src="./src/assets/manufacturing.png" alt="Digital Transformation" width="70px" height="70px" />
+          </div>
+          <h4 className="imagen-titulo">Transformación Digital</h4>
+        </div>
+
+
+      </div>
      
       <Footer />
     </>

@@ -62,7 +62,8 @@ const Nav = () => {
                         {/*<li><a href="#" onClick={(e) => abrirModalProductos(e)}>Productos</a></li> <li><a href="/Proyectos">Proyectos</a></li>*/}
                     
                     <li><a href="/quienes">Quienes Somos</a></li>
-                        {/*<li><a href="#">Soporte</a></li>*/}
+                    <li><a href="/contactanos">Contáctanos</a></li>
+                        
                         {/*<li><a href="#" onClick={(e) => abrirModal(e, 'ddc')}>Descargas</a></li>
                     <li><a href="#">Carreras</a></li>*/}
                     </ul>
