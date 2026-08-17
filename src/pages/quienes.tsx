@@ -50,31 +50,31 @@ function quienes() {
       <div className="seccion-imagen">
         <div className="imagen-container">
           <div>
-             <img src="./src/assets/program.png" alt="Engineering" width="70px" height="70px" />
+             <img src="../src/assets/program.png" alt="Engineering" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Ingeniería Aplicada</h4>
         </div>
         <div className="imagen-container">
           <div>
-            <img src="./src/assets/exploratory-analysis.png" alt="Analysis" width="70px" height="70px" />
+            <img src="../src/assets/exploratory-analysis.png" alt="Analysis" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Análisis Riguroso</h4>   
         </div>
         <div className="imagen-container">
           <div>
-            <img src="./src/assets/good-feedback.png" alt="Performance" width="70px" height="70px" />
+            <img src="../src/assets/good-feedback.png" alt="Performance" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Desempeño</h4>
         </div>
         <div className="imagen-container">
           <div>
-            <img src="./src/assets/planet-earth.png" alt="Sostenibility" width="70px" height="70px" />
+            <img src="../src/assets/planet-earth.png" alt="Sostenibility" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Sostenibilidad</h4>
         </div>
         <div className="imagen-container">
           <div>
-            <img src="./src/assets/manufacturing.png" alt="Digital Transformation" width="70px" height="70px" />
+            <img src="../src/assets/manufacturing.png" alt="Digital Transformation" width="70px" height="70px" />
           </div>
           <h4 className="imagen-titulo">Transformación Digital</h4>
         </div>
