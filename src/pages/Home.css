@@ -4,4 +4,9 @@ body {
     background-color: #FFFFFF;
     overflow-x: hidden;
         }
-      
+.hero-mask-gradient {
+      background: linear-gradient(90deg, #F4F7FB 0%, #F4F7FB 48%, rgba(244, 247, 251, 0.82) 65%, rgba(244, 247, 251, 0.1) 100%);
+    }
+.badge-shadow {
+      box-shadow: 0 10px 25px -5px rgba(15, 76, 129, 0.1), 0 8px 10px -6px rgba(15, 76, 129, 0.1);
+    } 

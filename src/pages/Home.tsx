@@ -1,5 +1,5 @@
 import './Home.css';
-import './Home1.css';
+
 import './tailwind-configs.js';
 import '../Nav.css';
 import Nav from '../Nav.tsx';
