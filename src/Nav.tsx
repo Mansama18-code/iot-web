@@ -1,7 +1,7 @@
 
-
-//import { useState } from 'react'
 import iotLogo from './assets/iot-ing.png';
+//import { useState } from 'react'
+
 //import { useRef} from 'react';
 //import backGround from './assets/bg-img.png'
 import './Nav.css';
@@ -16,46 +16,8 @@ const Nav = () => {
     
     return (
       
-        
-    
-        <div>
-            {/*
-            <nav>
-                
-                <ul className='ulNav'>
-                   <li ><a href='/'>INICIO</a></li>
-                    <li><a href='/quienes'>QUIENES SOMOS</a></li>
-                    <li><a href='/servicios'>SERVICIOS</a></li>
-                    <li><a href='/proyectos'>PROYECTOS</a></li>
-                    <li><a href='/contactanos'>CONTÁCTANOS</a></li>   
-                </ul>
-               
-            </nav>
-
-            */}
-            
-
-            <div className="barra-top">
-            <div className="barra-top-interior">
-                
-                
+       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 <a href='/'><img src={iotLogo} alt="IOT logo" className='iotLogos'/></a>
-                <div className="logo-lema">INNOVAMOS<span className="punto">•</span>AUTOMATIZAMOS<span className="punto">•</span>CONECTAMOS</div>
-                    {/*
-                <div className="top-acciones">
-                <a href="#">👤 Login</a>
-                <a href="#">📍 Contacto</a>
-                <div className="buscador">
-                    <input type="text" placeholder="Buscar..." />
-                    <button>🔍</button>
-                </div>
-                </div> */}
-            </div>
-            </div>
-
-
-
-            <nav >
                 <div className="nav-interior">
                     <ul className="nav-links">
                     <li><a href="/" className="activo">Inicio</a></li>
@@ -68,8 +30,14 @@ const Nav = () => {
                     <li><a href="#">Carreras</a></li>*/}
                     </ul>
                 </div>
+
+                <div>
+                    <a className="bg-yellow-400 inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-semibold text-white bg-brand-accentOrange hover:bg-brand-accentOrangeHover transition duration-200 shadow-sm" data-purpose="cta-header" href="#contacto">
+                        Solicitar cotización
+                    </a>
+                </div>
             </nav>
-        </div>
+        
 
         
         

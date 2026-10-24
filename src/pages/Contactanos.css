@@ -11,15 +11,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     width: 100%;
     padding: 10px;
 }
 
-#form-contacto input,#servicios, #form-contacto textarea, button {
+#form-contacto input, #form-contacto textarea {
     width: 40%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+#servicioss, button {
+    width: 40%;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#servicios {
+    width: 100%;
+    padding: 25px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -38,7 +51,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    margin-top: 20px;
+    
     
 }
 

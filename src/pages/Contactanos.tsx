@@ -11,6 +11,8 @@ import './Contactanos.css';
 //ESTO PUEDE LOGRARSE CON UNA LIBRERÍA DE ENVÍO DE CORREOS O UN BACKEND 
 //QUE MANEJE EL ENVÍO DE LOS MENSAJES.
 
+//HAMBURGER BUTTON PARA LA PARTE RESPONSIVE DEL SITIO WEB.
+
 function Contactanos() {
   // const [count, setCount] = useState(0)
   
@@ -39,7 +41,7 @@ function Contactanos() {
               <input type="email" id="email" name="email" required />
 
               <label htmlFor="servicio">Servicio de interés:</label>
-              <select id="servicios" name="servicios">
+              <select id="servicioss" name="servicios">
                 <option value="valor">Seleccione un servicio</option>
                 <option value="valor1">Automatización Industrial</option>
                 <option value="valor2" selected>Conectividad IoT</option>

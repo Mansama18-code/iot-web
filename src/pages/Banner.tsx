@@ -2,7 +2,7 @@ import './Home.css'
 
 
 function Banner() {
-    // const [count, setCount] = useState(0)
+   
   
     return (
         <>
@@ -36,7 +36,7 @@ function Banner() {
         </>
 
     )
-}
+} 
     
 
 export default Banner;

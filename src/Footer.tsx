@@ -5,64 +5,21 @@ const Footer = () => {
 
   return (
     
-        <div className="backColor">{/*
-            <div className='mainFoot'>
-                <div className="subMainFoot firstFoot"> 
-                    
-                  <span><b>SÍGUENOS EN: </b></span>
-                    <div className='redes'>
-                        <img className="imgSize" src={fb} alt="logo redes"/>
-                        <img className="imgSize"  src={wa} alt="logo redes"/>
-                        <img className="imgSize"  src={ig} alt="logo redes"/>
-                        <img className="imgSize"  src={yt} alt="logo redes"/>
-                    </div>*
-                </div>
-                
-             
-                  <div className="subMainFoot">
-                      <h3> ESTÁ ACTUALIZADO</h3>
-                      <br></br>
-                      <span>Suscríbete a nuestro boletín</span>
-                      <input type="text" placeholder='Ingresa tu correo' />
-                      <button>SUSCRIBIRSE</button>
-                  </div>
-            </div>
-            
-          <div className='mainFoot2'>
-              <ul className='ulFoot'>
-                    <li><a href='/Contactanos' className='yButton'>CONTÁCTANOS</a></li> 
-                    <li><a href='/quienes'>QUIENES SOMOS</a></li>
-                    <li><a href='/Servicios'>SERVICIOS</a></li>
-                    <li><a href='/Proyectos'>PROYECTOS</a></li>
-                    
-                </ul>
-                
-                <img src={iotLogo} alt="logo redes" className='iotLogos'/>
-          </div>
-          <div className="mainFoot2">
-                    {/*<h3><b>SOBRE NOSOTROS</b></h3>*/}
-            
-                  {/* <p className='copyright'>© 2026 Ingeniería IOT. Todos los derechos reservados.</p> 
-            
-                    
-               
-       </div>*/}
         
-          <div className="footer-interior footy">
-            <div className="footer-arriba footy-footy" >
-            <div className="footer-lema">INNOVAMOS<span className="punto">•</span>AUTOMATIZAMOS<span className="punto">•</span>CONECTAMOS</div>
+        
+         <footer className="bg-[#0b3861] text-gray-300 py-10 border-t border-blue-950">
+            <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-xs gap-4">
+                <div className="flex items-center gap-2">
+                    <span className="font-bold text-white tracking-wide">INGENIERÍA IOT</span>
+                    <span>— Edificaciones inteligentes, conectadas y sostenibles.</span>
+                </div>
+                <div>
+                    <p>© 2026 INGENIERÍA IOT. Todos los derechos reservados.</p>
+                </div>
             </div>
-            <div className='footy-footy-footy'>
-                <span className="footer-copy">© 2026 Ingeniería IOT. Todos los derechos reservados.</span>
-                <ul className="footer-links">
-                    <li><a href="#">Privacidad</a></li> {/*<li><a href="#">Términos de Uso</a></li>*/}
-                    {/*<li><a href="#">Mapa del Sitio</a></li> */} <li><a href="#">Contáctanos</a></li>
-                </ul>
-            </div>
-        </div>
-                
+        </footer>       
 
-        </div>
+        
         
     
     )
