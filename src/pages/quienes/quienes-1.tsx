@@ -1,8 +1,3 @@
-import ingenieria from '/program.png';
-import analisis from '/exploratory-analysis.png';
-import desempeno from '/good-feedback.png';
-import sostenibilidad from '/planet-earth.png';
-import digital from '/manufacturing.png';
 import '../quienes.css';
 import '../tailwind-configs.js';
 function quienes_1() {
