@@ -6,7 +6,8 @@ import Nav from '../Nav.tsx';
 import Banners from './Banners.tsx';
 import Monitor from './Monitor.tsx';
 import Valor from './Valor.tsx';
-import Servicios from './Servicios.tsx';
+import Cta from './Cta.tsx';
+import Servicios from './servicios/Servicios.tsx';
 import Footer from '../Footer.tsx';
 
 
@@ -43,7 +44,10 @@ function Home() {
             <div>
                 <Monitor />
                 <Valor />
+                {/*Qué Hacemos*/}
                 <Servicios />
+                {/*Cómo Trabajamos*/}
+                <Cta/>
             </div>
             <Footer />
         

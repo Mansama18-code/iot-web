@@ -3,7 +3,7 @@ import iotLogo from './assets/iot-ing.png';
 //import { useState } from 'react'
 
 //import { useRef} from 'react';
-//import backGround from './assets/bg-img.png'
+//import backGround from './assets/bg-img.png'<li><a href="/ServiciosP">Servicios</a></li>
 import './Nav.css';
 
 
@@ -24,7 +24,10 @@ const Nav = () => {
                         {/*<li><a href="#" onClick={(e) => abrirModalProductos(e)}>Productos</a></li> <li><a href="/Proyectos">Proyectos</a></li>*/}
                     
                     <li><a href="/quienes">Quienes Somos</a></li>
-                    <li><a href="/contactanos">Contáctanos</a></li>
+                    
+                    <li><a href="/Contactanos">Contáctanos</a></li>
+                    
+
                         
                         {/*<li><a href="#" onClick={(e) => abrirModal(e, 'ddc')}>Descargas</a></li>
                     <li><a href="#">Carreras</a></li>*/}

@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 //import NavLink from 'react-router-dom/NavLink';
 import Home from './pages/Home.tsx';
 import Proyectos from './pages/Proyectos.tsx';
-import Servicios from './pages/Servicios.tsx';
+//import Servicios from './pages/ServiciosP.tsx';
 import Contactanos from './pages/Contactanos.tsx';
 import Quienes from './pages/quienes.tsx';
 
@@ -23,7 +23,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/quienes' element={<Quienes />} />
             <Route path='/Proyectos' element={<Proyectos />} />
-            <Route path='/Servicios' element={<Servicios />} />
+            
             <Route path='/Contactanos'  element={<Contactanos />} />
             </Routes>
         </BrowserRouter>

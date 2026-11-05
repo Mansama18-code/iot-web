@@ -26,13 +26,13 @@ const Banners = () => {
                         </p>
 
                         <h1 className="text-3xl sm:text-4xl lg:text-[44px] leading-tight font-bold text-brand-darkText mb-6">
-                            Soluciones MEP, HVAC e IoT para desarrollar espacios<br/>
-                            <span className="text-brand-blueSecondary">más eficientes,</span><br/>
+                            Soluciones para desarrollar <br/>
+                            <span className="text-brand-blueSecondary">espacios, más eficientes,</span><br/>
                             <span className="text-brand-bluePrimary">seguros y sostenibles.</span>
                         </h1>
 
                             <p className="text-base sm:text-lg text-brand-grayMuted font-normal leading-relaxed mb-8 max-w-xl">
-                                Diseño, automatización, control y mantenimiento con tecnología, experiencia y un enfoque humano.
+                                Diseño de Sistema MEP, automatización, control y mantenimiento.
                             </p>
 
                         <div className="flex flex-wrap items-center gap-4">
