@@ -11,7 +11,11 @@ function Servicios() {
           
             <article className="bg-white rounded-2xl text-left overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col" data-purpose="service-card">
               <div className="h-52 w-full overflow-hidden">
+<<<<<<< HEAD
                 <img alt="Sistemas Mecánicos y HVAC Industrial" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300" src="./diseno.png"/>
+=======
+                <img alt="Sistemas Mecánicos y HVAC Industrial" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300" src="./../../../public/diseno.png"/>
+>>>>>>> e519278daa69439e3c3594c6f299ed5f8f992127
               </div>
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
@@ -39,8 +43,13 @@ function Servicios() {
 
             <article className="bg-white rounded-2xl text-left overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col" data-purpose="service-card">
               <div className="h-52 w-full overflow-hidden">
+<<<<<<< HEAD
                 <img alt="Automatización y Control BMS" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300" src="./ddc9.png"/>
-              </div>
+=======
+                <img alt="Automatización y Control BMS" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300" src="./../../../public/ddc9.png"/>
+>>>>>>> e519278daa69439e3c3594c6f299ed5f8f992127
+              </div >
+                
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
                   <div className="flex items-center gap-2 mb-3">
