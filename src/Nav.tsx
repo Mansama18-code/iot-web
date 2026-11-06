@@ -25,21 +25,22 @@ const Nav = () => {
                     
                     <li><a href="/quienes">Quienes Somos</a></li>
                     <li><a href="/ServiciosP">Servicios</a></li>
-                    
+                    <li><a href="/">Soluciones</a></li>
+                    <li><a href="/">Proyectos</a></li>
                     <li><a href="/Contactanos">Contáctanos</a></li>
                     
-
                         
                         {/*<li><a href="#" onClick={(e) => abrirModal(e, 'ddc')}>Descargas</a></li>
                     <li><a href="#">Carreras</a></li>*/}
                     </ul>
                 </div>
-
+            {/*             
                 <div>
                     <a className="bg-yellow-400 inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-semibold text-white bg-brand-accentOrange hover:bg-brand-accentOrangeHover transition duration-200 shadow-sm" data-purpose="cta-header" href="#contacto">
                         Solicitar cotización
                     </a>
                 </div>
+            */}
             </nav>
         
 

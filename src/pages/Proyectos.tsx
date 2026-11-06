@@ -1,6 +1,6 @@
 import Nav from '../Nav.tsx'
 import Footer from '../Footer.tsx'
-import Banner from './Bannerx.tsx';
+import Banner from './headers/Bannerx.tsx';
 import './Home.css'
 
 //ESTA SECCIÓN ESTÁ DESHABILITADA PORQUE NO ESTÁ CONFIRMADO LOS SERVICIOS.

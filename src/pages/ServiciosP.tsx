@@ -1,31 +1,27 @@
 import Nav from '../Nav.tsx';
+import Banner from './headers/Banners.tsx';
 
 function ServiciosP() {
   return (
     <>
       <div >
         <Nav/>
+        <Banner/>
       </div>
       {/*<!-- BEGIN: SECTION 1 - Diseños MEP -->*/}
       <section className="py-16 lg:py-20 bg-brand-lightBg text-left" id="mep">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
-              <span className="text-xs uppercase font-semibold text-brand-bluePrimary tracking-wider block mb-2">
-                Capacidad 01
-              </span>
+             
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-darkText">
-                Diseños MEP: Mecánica, Electricidad y Plomería
+                Diseños MEP {/*: Mecánica, Electricidad y Plomería*/}
               </h2>
               <p className="text-sm sm:text-base text-brand-grayMuted max-w-2xl mt-3 leading-relaxed">
-                Desarrollo riguroso de planos e ingenierías de detalle bajo estándares ASHRAE, NEC y NFPA, diseñados para optimizar el ciclo de vida y garantizar la eficiencia energética de la edificación.
+                Desarrollo riguroso de planos e ingenierías de detalle bajo estándares técnicos para optimizar el ciclo de vida y garantizar la eficiencia energética de la edificación.
               </p>
             </div>
-            <div className="mt-4 md:mt-0">
-              <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold bg-white border border-brand-grayBorder text-brand-blueSecondary shadow-xs">
-                Acreditación Profesional SPIA &amp; ASHRAE
-              </span>
-            </div>
+           
           </div>
           {/*<!-- Grid de 4 Cards estilo Home -->*/}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -166,9 +162,7 @@ function ServiciosP() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-12">
             <div className="lg:col-span-7">
-              <span className="text-xs uppercase font-semibold text-brand-bluePrimary tracking-wider block mb-2">
-                        Capacidad 02
-                      </span>
+              
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-darkText">
                         BIM &amp; Digitalización: Virtualización y precisión constructiva
                       </h2>
@@ -176,22 +170,9 @@ function ServiciosP() {
                         Transformamos planos 2D convencionales en modelos de información de la construcción (BIM) tridimensionales de alta fidelidad. Desarrollamos gemelos digitales paramétricos que asisten en la cuantificación, presupuestación y operación.
                     </p>
             </div>
-            <div className="lg:col-span-5 flex flex-wrap gap-3 lg:justify-end">
-              <div className="bg-brand-lightBg px-4 py-2.5 rounded-xl border border-brand-grayBorder flex items-center gap-2.5">
-                <svg className="w-5 h-5 text-brand-bluePrimary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                <div>
-                <div className="font-bold text-xs text-brand-darkText">Estándar ISO 19650</div>
-                <div className="text-[11px] text-brand-grayMuted">Gestión digital de información</div>
-              </div>
-            </div>
-            <div className="bg-brand-lightBg px-4 py-2.5 rounded-xl border border-brand-grayBorder flex items-center gap-2.5">
-              <svg className="w-5 h-5 text-brand-bluePrimary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-              <div>
-                <div className="font-bold text-xs text-brand-darkText">Modelos LOD 300 - 400</div>
-                  <div className="text-[11px] text-brand-grayMuted">Precisión constructiva exacta</div>
-                </div>
-              </div>
-            </div>
+            
+            
+            
           </div>
           {/*<!-- 3 Featured Bento Cards con Fotos Reales estilo Home -->*/}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -275,11 +256,9 @@ function ServiciosP() {
       <section className="py-16 lg:py-20 bg-brand-lightBg text-left" id="automatizacion">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
-            <span className="text-xs uppercase font-semibold text-brand-bluePrimary tracking-wider block mb-2">
-              Capacidad 03
-            </span>
+            
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-darkText">
-              Automatización &amp; Control: <span className="text-brand-blueSecondary">Cerebro Operacional del Edificio</span>
+              Automatización &amp; Control
             </h2>
             <p className="text-sm sm:text-base text-brand-grayMuted mt-3 leading-relaxed">
               Sistemas que toman decisiones autónomas para equilibrar el confort de los ocupantes y el uso racional de la energía mediante controladores lógicos de campo y supervisión centralizada.
@@ -381,9 +360,7 @@ function ServiciosP() {
 <section className="bg-brand-blueSecondary text-white text-left py-16 lg:py-20 relative overflow-hidden" id="iot">
   <div className="max-w-7xl mx-auto px-6 relative z-10">
     <div className="max-w-3xl mb-12">
-      <span className="text-xs uppercase font-semibold text-brand-bluePrimary tracking-wider block mb-2">
-        Capacidad 04
-      </span>
+      
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight">
         IoT &amp; Smart Buildings: <span className="text-brand-accentOrange">Conectividad y Telemetría en la Nube</span>
       </h2>
@@ -466,7 +443,7 @@ function ServiciosP() {
       </div>
     </div>
   </div>
-          {/*<!-- Barra de Telemetría Inferior -->*/}
+          {/*<!-- Barra de Telemetría Inferior -->
   <div className="mt-10 bg-white/5 border border-white/15 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-4">
     <div className="flex items-center gap-3">
       <div className="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></div>
@@ -478,7 +455,7 @@ function ServiciosP() {
       <a className="inline-flex items-center justify-center px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold text-white bg-brand-accentOrange hover:bg-brand-accentOrangeHover transition shadow-sm" href="#contacto">
         <span>Solicitar demo de monitoreo IoT</span>
       </a>
-    </div>
+    </div>*/}
   </div>
 </section>
       {/*<!-- END: SECTION 4 -->
@@ -487,9 +464,7 @@ function ServiciosP() {
   <div className="max-w-7xl mx-auto px-6">
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-12">
       <div className="lg:col-span-7">
-        <span className="text-xs uppercase font-semibold text-brand-bluePrimary tracking-wider block mb-2">
-          Capacidad 05
-        </span>
+        
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-darkText">
           Capacitación Técnica Especializada
         </h2>
@@ -557,89 +532,7 @@ function ServiciosP() {
     </div>
   </div>
 </section>
-      {/*<!-- END: SECTION 5 -->
-<!-- BEGIN: Metodología de Ejecución (4 Pasos Rigurosos) -->*/}
-<section className="py-16 lg:py-20 bg-brand-lightBg text-left">
-  <div className="max-w-7xl mx-auto px-6">
-    <div className="text-center max-w-2xl mx-auto mb-12">
-      <span className="text-xs uppercase font-semibold text-brand-bluePrimary tracking-wider block mb-2">
-        Metodología Comprobada
-      </span>
-      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-darkText">
-        Cómo ejecutamos nuestros servicios
-      </h2>
-      <p className="text-sm sm:text-base text-brand-grayMuted mt-3 leading-relaxed">
-        Un proceso sistemático de 4 etapas que asegura cumplimiento normativo, control de presupuesto y cero sorpresas en la entrega de la obra.
-      </p>
-    </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {/*<!-- Step 1 -->*/}
-      <div className="bg-white p-6 rounded-2xl border border-brand-grayBorder shadow-clean flex flex-col justify-between">
-        <div>
-          <div className="flex items-center justify-between mb-4">
-            <span className="text-3xl font-extrabold text-brand-bluePrimary/30">01</span>
-            <div className="w-8 h-8 rounded-full bg-blue-50 text-brand-bluePrimary flex items-center justify-center">
-              <svg className="w-4 h-4 stroke-[2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-            </div>
-          </div>
-          <h3 className="text-sm font-bold text-brand-darkText mb-2">Diagnóstico &amp; Factibilidad</h3>
-          <p className="text-xs text-brand-grayMuted leading-relaxed">
-            Levantamiento técnico en sitio, análisis de factibilidad energética, evaluación de cargas y términos de referencia iniciales.
-          </p>
-        </div>
-        <div className="mt-6 pt-3 border-t border-gray-100 text-[11px] text-brand-grayMuted font-medium">Fase 1 • Auditoría Inicial</div>
-        </div>
-        {/*<!-- Step 2 -->*/}
-        <div className="bg-white p-6 rounded-2xl border border-brand-grayBorder shadow-clean flex flex-col justify-between">
-          <div>
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-3xl font-extrabold text-brand-bluePrimary/30">02</span>
-              <div className="w-8 h-8 rounded-full bg-blue-50 text-brand-bluePrimary flex items-center justify-center">
-                <svg className="w-4 h-4 stroke-[2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </div>
-            </div>
-            <h3 className="text-sm font-bold text-brand-darkText mb-2">Ingeniería &amp; BIM</h3>
-            <p className="text-xs text-brand-grayMuted leading-relaxed">
-              Memorias de cálculo, planos detallados, selección de equipos de alta eficiencia y modelado paramétrico 3D sin colisiones.
-            </p>
-          </div>
-          <div className="mt-6 pt-3 border-t border-gray-100 text-[11px] text-brand-grayMuted font-medium">Fase 2 • Diseño LOD 400</div>
-        </div>
-            {/*<!-- Step 3 -->*/}
-        <div className="bg-white p-6 rounded-2xl border border-brand-grayBorder shadow-clean flex flex-col justify-between">
-          <div>
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-3xl font-extrabold text-brand-bluePrimary/30">03</span>
-              <div className="w-8 h-8 rounded-full bg-blue-50 text-brand-bluePrimary flex items-center justify-center">
-                <svg className="w-4 h-4 stroke-[2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="12" cy="12" r="3"></circle></svg>
-              </div>
-            </div>
-            <h3 className="text-sm font-bold text-brand-darkText mb-2">Puesta en Marcha (Cx)</h3>
-            <p className="text-xs text-brand-grayMuted leading-relaxed">
-              Instalación de controladores, comisionamiento (Commissioning) y calibración hidrónica/aerólica según tolerancias de diseño.
-            </p>
-          </div>
-        <div className="mt-6 pt-3 border-t border-gray-100 text-[11px] text-brand-grayMuted font-medium">Fase 3 • Pruebas TAB</div>
-      </div>
-      {/* <!-- Step 4 --> */}
-      <div className="bg-white p-6 rounded-2xl border border-brand-grayBorder shadow-clean flex flex-col justify-between">
-        <div>
-          <div className="flex items-center justify-between mb-4">
-            <span className="text-3xl font-extrabold text-brand-bluePrimary/30">04</span>
-            <div className="w-8 h-8 rounded-full bg-blue-50 text-brand-bluePrimary flex items-center justify-center">
-              <svg className="w-4 h-4 stroke-[2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-            </div>
-          </div>
-          <h3 className="text-sm font-bold text-brand-darkText mb-2">Soporte &amp; Telemetría</h3>
-          <p className="text-xs text-brand-grayMuted leading-relaxed">
-            Monitoreo continuo IoT, capacitación del personal operativo y contratos de mantenimiento predictivo y preventivo.
-          </p>
-        </div>
-        <div className="mt-6 pt-3 border-t border-gray-100 text-[11px] text-brand-grayMuted font-medium">Fase 4 • Operación Continua</div>
-      </div>
-    </div>
-  </div>
-</section>
+     
       {/* <!-- BEGIN: CTA Section de Cierre (Estilo Home) --> */}
 <section className="bg-brand-blueSecondary text-left text-white py-16 lg:py-20" id="contacto">
   <div className="max-w-7xl mx-auto px-6">

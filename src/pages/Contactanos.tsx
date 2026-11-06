@@ -1,6 +1,6 @@
 import Nav from '../Nav.tsx';
 import Footer from '../Footer.tsx';
-import Banner from './Bannerx.tsx';
+import Banner from './headers/Bannerx.tsx';
 import redes from '/instagram.svg';
 import './Contactanos.css';
 
