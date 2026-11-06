@@ -24,7 +24,7 @@ const Nav = () => {
                         {/*<li><a href="#" onClick={(e) => abrirModalProductos(e)}>Productos</a></li> <li><a href="/Proyectos">Proyectos</a></li>*/}
                     
                     <li><a href="/quienes">Quienes Somos</a></li>
-                    
+                    <li><a href="/ServiciosP">Servicios</a></li>
                     <li><a href="/Contactanos">Contáctanos</a></li>
                     
 
