@@ -7,9 +7,7 @@ import Proyectos from './pages/Proyectos.tsx';
 import Servicios from './pages/ServiciosP.tsx';
 import Contactanos from './pages/Contactanos.tsx';
 import Quienes from './pages/quienes.tsx';
-
-
-
+import Soluciones from './pages/Soluciones.tsx';
 import './App.css';
 
 
@@ -22,7 +20,8 @@ function App() {
             <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/quienes' element={<Quienes />} />
-            <Route path='/Proyectos' element={<Proyectos />} />
+          <Route path='/Proyectos' element={<Proyectos />} />
+          <Route path='/Soluciones' element={<Soluciones />} />
             <Route path='/ServiciosP' element={<Servicios />} />
           <Route path='/Contactanos' element={<Contactanos />} />
           

@@ -1,5 +1,6 @@
 import Nav from '../Nav.tsx';
-import Banner from './headers/Banners.tsx';
+import Banner from './headers/Banner_serv.tsx';
+
 
 function ServiciosP() {
   return (

@@ -1,6 +1,6 @@
 import Nav from '../Nav.tsx';
 import Footer from '../Footer.tsx';
-import Banner from './headers/Bannerx.tsx';
+import Banner from './headers/Banner_cont.tsx';
 import redes from '/instagram.svg';
 import './Contactanos.css';
 
@@ -43,6 +43,7 @@ function Contactanos() {
               <label htmlFor="servicio">Servicio de interés:</label>
               <select id="servicioss" name="servicios">
                 <option value="valor">Seleccione un servicio</option>
+                <option value="valor">Diseño MEP</option>
                 <option value="valor1">Automatización Industrial</option>
                 <option value="valor2" selected>Conectividad IoT</option>
                 <option value="valor3">Análisis de Datos</option>

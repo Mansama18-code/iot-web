@@ -1,11 +1,12 @@
 import Nav from '../Nav.tsx'
 import Footer from '../Footer.tsx'
-import Banner from './headers/Bannerx.tsx';
-import './Home.css'
+import Banner from './headers/Banner_proy.tsx';
+import Proyecto from './proyectos/Proyectos_Lista.tsx';
+import './Home.css';
+import './Proyectos.css';
 
 //ESTA SECCIÓN ESTÁ DESHABILITADA PORQUE NO ESTÁ CONFIRMADO LOS SERVICIOS.
 //A EMPRESAS. 
-
 
 function Proyectos() {
  // const [count, setCount] = useState(0)
@@ -16,117 +17,8 @@ function Proyectos() {
         <Nav />
         <Banner />
       </header>
+      <Proyecto />
       
-      <div className="seccion-tarjetas">
-        <br></br>
-        <h2> Proyectos Realizados </h2>
-        <h3 >
-              Nuestros clientes nos eligen por la experiencia, calidad y compromiso.
-        </h3>
-        <br></br>
-        <div className="max-w-7xl mx-auto px-6" >
-          <div className="text-center max-w-3xl mx-auto mb-16 ">
-            
-           
-          </div>
-
-          <div>
-             <h3> <b><span className="text-xl font-bold mb-3 dark:text-white">Arquitectura Tropical</span></b> </h3> <br></br>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8 ">
-            
-            <div  className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/mamey.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h4 className=" text-xl font-bold mb-3 dark:text-white">Electromecánica | Casa Mamey</h4>              
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
-              </div>
-            </div>
-
-            
-          </div>
-
-          <div>
-              <br></br> <h3> <b><span className="text-xl font-bold mb-3 dark:text-white">Automatización</span></b> </h3> <br></br>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 ">
-            <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/machetazo.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h3 className="text-xl font-bold mb-3 dark:text-white">Automatización | El Machetazo</h3>
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div>
-              <br></br> <h3> <b><span className="text-xl font-bold mb-3 dark:text-white">Diseño (Aire Acondicionado)</span></b> </h3> <br></br>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 ">
-
-             <div className="text-start group  rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/puma.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h4 className="text-xl font-bold mb-3 dark:text-white">Gasolinera Puma</h4> 
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
-              </div>
-            </div>
-
-            <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/aeropuerto.jpeg" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h3 className="text-xl font-bold mb-3 dark:text-white">Aeropuerto Tocumen | Domestic Luggage</h3>
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
-              </div>
-            </div>
-
-            <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/hospital.webp" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h3 className="text-xl font-bold mb-3 dark:text-white">Cuarto Resonador | Hospital Manuel Amador Guerrero</h3>
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto...</p>
-              </div>
-            </div>
-           
-          </div>
-
-          <div>
-              <br></br> <h3> <b><span className="text-xl font-bold mb-3 dark:text-white">Colaboraciones</span></b> </h3> <br></br>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8 ">
-          
-            <div className="text-start group  rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/testimage.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h3 className="text-xl font-bold mb-3 dark:text-white">Casa Dylan</h3>
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto... </p>
-                <p className="text-slate-600 dark:text-slate-400">| Colaboración con Espacio LAR</p>
-              </div>
-            </div>
-
-            <div className="text-start group rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/5">
-              <img src="/background-image/las-costas.jpg" alt="TestBack" className="w-full h-48 object-cover rounded" />
-              <div className="p-8">
-                <h3 className="text-xl font-bold mb-3 dark:text-white">Hotel Las Costas</h3>
-                <p className="text-slate-600 dark:text-slate-400">Descripción del Proyecto... </p>
-                <p className="text-slate-600 dark:text-slate-400">| Colaboración con Espacio LAR</p>
-              </div>  
-            </div>
-          </div>
-          
-          
-          
-        
-        </div>
-      </div>
-      
-      <div className="text-center max-w-4xl mx-auto mb-16 ">
-        <button className="bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded" onClick={() => window.location.href = '#contacto'}> COMUNICATE CON NOSOTROS </button>
-      </div>
-     
       <Footer />
     </>
   )

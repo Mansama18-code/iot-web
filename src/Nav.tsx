@@ -25,8 +25,8 @@ const Nav = () => {
                     
                     <li><a href="/quienes">Quienes Somos</a></li>
                     <li><a href="/ServiciosP">Servicios</a></li>
-                    <li><a href="/">Soluciones</a></li>
-                    <li><a href="/">Proyectos</a></li>
+                    <li><a href="/Soluciones">Soluciones</a></li>
+                    <li><a href="/Proyectos">Proyectos</a></li>
                     <li><a href="/Contactanos">Contáctanos</a></li>
                     
                         

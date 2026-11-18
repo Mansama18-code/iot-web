@@ -27,7 +27,7 @@ function Servicios() {
                   </p>
                 </div>
                 <div>
-                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="#">
+                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="/ServiciosP">
                     <span>Ver servicios</span>
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
@@ -39,7 +39,7 @@ function Servicios() {
 
             <article className="bg-white rounded-2xl text-left overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col" data-purpose="service-card">
               <div className="h-52 w-full overflow-hidden">
-                <img alt="Automatización y Control BMS" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300" src="./ddc9.png"/>
+                <img alt="Automatización y Control BMS" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300" src="./ddc9.jpg"/>
               </div>
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
@@ -54,7 +54,7 @@ function Servicios() {
                   </p>
                 </div>
                 <div>
-                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="#">
+                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="/Soluciones">
                     <span>Ver soluciones</span>
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
@@ -81,7 +81,7 @@ function Servicios() {
                 </p>
               </div>
               <div>
-                <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="#">
+                <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="/Proyectos">
                   <span>Ver proyectos</span>
                   <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>

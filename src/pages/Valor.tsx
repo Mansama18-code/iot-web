@@ -19,10 +19,10 @@ function Valor() {
         
                         <div className="lg:col-span-5 flex flex-col justify-between">
                             <p className="text-sm sm:text-base text-gray-200 font-light leading-relaxed mb-4">
-                                Integramos ingeniería, automatización y tecnologías digitales para crear edificaciones más eficientes, seguras y sostenibles, mejorando la experiencia de las personas y el valor de los proyectos.
+                                Ingeniería, automatización y tecnologías digitales para crear soluciones más eficientes, seguras y sostenibles con valor para mejorar la experiencia de las personas.
                             </p>
                             <div>
-                                <a className="inline-flex items-center text-xs sm:text-sm font-semibold text-brand-accentOrange hover:underline gap-1" href="#">
+                                <a className="inline-flex items-center text-xs sm:text-sm font-semibold text-brand-accentOrange hover:underline gap-1" href="/quienes">
                                     <span>Conocer más sobre nosotros</span>
                                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>

@@ -21,7 +21,7 @@ function Cta() {
                         </p>
                     </div>
                     <div className="flex flex-wrap sm:flex-nowrap items-center gap-4 flex-shrink-0">
-                        <a className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-sm font-semibold text-white bg-brand-accentOrange hover:bg-brand-accentOrangeHover transition shadow-md" href="#">
+                        <a className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-sm font-semibold text-white bg-brand-accentOrange hover:bg-brand-accentOrangeHover transition shadow-md" href="/Contactanos">
                             <span>Solicitar cotización</span>
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>

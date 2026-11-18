@@ -2,7 +2,7 @@ import Nav from '../Nav.tsx';
 import Footer from '../Footer.tsx';
 //import { useRef } from 'react';
 import './Home2.css'
-import Headers from '../headers/Headers.tsx';
+import Headers from './headers/Headers.tsx';
 
 //import testIcon from '../assets/imagen_test.jpg';
 
