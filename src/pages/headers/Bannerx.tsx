@@ -8,7 +8,7 @@ function Banner() {
         <>
             <section className="header-hero relative overflow-hidden border-b border-gray-100" data-purpose="hero-section">
 
-                <div className="tamano absolute inset-y-0 right-0 w-full lg:w-3/5 pointer-events-none">
+                <div className="tamano absolute inset-y-0 right-0 w-full lg:w-full pointer-events-none">
                     <img alt="Modern Smart Building" className="w-full h-full object-cover object-center" src="../src/assets/luis-quintero.jpg"/>
                     <div className="absolute inset-0 hero-mask-gradient"></div>
                 </div>
