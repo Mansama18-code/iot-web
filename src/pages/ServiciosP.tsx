@@ -60,10 +60,7 @@ function ServiciosP() {
                   </li>
                 </ul>
               </div>
-              <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1 pt-4 border-t border-gray-100" href="#contacto">
-                <span>Consultar cálculo HVAC</span>
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-              </a>
+             
             </div>
             {/*<!-- MEP 2: Electricidad -->*/}
             <div className="bg-white rounded-2xl p-6 border border-brand-grayBorder shadow-clean hover:shadow-clean-hover transition-all duration-300 flex flex-col justify-between group">
@@ -92,10 +89,7 @@ function ServiciosP() {
                   </li>
                 </ul>
               </div>
-              <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1 pt-4 border-t border-gray-100" href="#contacto">
-                <span>Consultar diseño eléctrico</span>
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-              </a>
+              
             </div>
             {/*<!-- MEP 3: Plomería & NFPA -->*/}
             <div className="bg-white rounded-2xl p-6 border border-brand-grayBorder shadow-clean hover:shadow-clean-hover transition-all duration-300 flex flex-col justify-between group">
@@ -124,10 +118,7 @@ function ServiciosP() {
                 </li>
               </ul>
             </div>
-            <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1 pt-4 border-t border-gray-100" href="#contacto">
-              <span>Consultar diseño hidráulico</span>
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-            </a>
+            
           </div>
             {/*<!-- MEP 4: Coordinación MEP -->*/}
           <div className="bg-white rounded-2xl p-6 border border-brand-grayBorder shadow-clean hover:shadow-clean-hover transition-all duration-300 flex flex-col justify-between group">
@@ -156,10 +147,7 @@ function ServiciosP() {
                 </li>
               </ul>
             </div>
-            <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1 pt-4 border-t border-gray-100" href="#contacto">
-              <span>Solicitar coordinación</span>
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-            </a>
+            
           </div>
         </div>
       </div>
@@ -199,13 +187,7 @@ function ServiciosP() {
                     Creación de modelos de información constructiva detallados para todas las disciplinas. Extracción automática de cómputos métricos, tablas de cantidades exactas y compatibilización espacial.
                   </p>
                 </div>
-                <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
-                  <span className="text-[11px] font-medium text-brand-grayMuted">LOD 300 - LOD 400</span>
-                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="#contacto">
-                    <span>Conocer más</span>
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-                  </a>
-                </div>
+                
               </div>
             </article>
             {/*<!-- BIM 2 -->*/}
@@ -223,13 +205,7 @@ function ServiciosP() {
                     Auditorías de colisiones duras (Hard Clashes) y tolerancias de mantenimiento (Soft Clashes). Emisión de informes estructurados BCF (BIM Collaboration Format) para contratistas generales.
                   </p>
                 </div>
-                <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
-                  <span className="text-[11px] font-medium text-brand-grayMuted">Ahorro hasta 18% en obra</span>
-                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="#contacto">
-                    <span>Conocer más</span>
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-                  </a>
-                </div>
+                
               </div>
             </article>
             {/*<!-- BIM 3 -->*/}
@@ -247,13 +223,7 @@ function ServiciosP() {
                     Levantamiento de instalaciones existentes mediante nubes de puntos de alta densidad. Modelamos el estado 'As-Built' real para proyectos de remodelación, modernización o auditoría técnica.
                   </p>  
                 </div>
-                <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
-                  <span className="text-[11px] font-medium text-brand-grayMuted">Nube de puntos + Revit</span>
-                  <a className="inline-flex items-center text-xs font-semibold text-brand-accentOrange hover:underline gap-1" href="#contacto">
-                    <span>Conocer más</span>
-                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-                  </a>
-                </div>
+                
               </div>
             </article>
           </div>
@@ -282,9 +252,7 @@ function ServiciosP() {
                     <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"></path>
                   </svg>
                 </div>
-                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-brand-lightBg text-brand-blueSecondary border border-brand-grayBorder">
-                  Protocolo Nativo BACnet / IP
-                </span>
+               
               </div>
             <h3 className="text-xl font-bold text-brand-darkText mb-3">
               BMS (Building Management Systems)
@@ -293,19 +261,19 @@ function ServiciosP() {
               Diseño, suministro y puesta en marcha de estaciones de trabajo y servidores BMS que integran la supervisión en tiempo real de plantas enfriadoras (chillers), bombas de condensación, unidades manejadoras de aire (UMA) y subestaciones eléctricas.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-              <div className="p-3.5 rounded-xl bg-brand-lightBg border border-gray-100">
+              <div className="p-3.5 rounded-m bg-brand-lightBg border border-gray-100">
                 <div className="font-bold text-xs text-brand-darkText mb-1">Sinópticos Dinámicos</div>
                 <div className="text-[11px] text-brand-grayMuted leading-normal">Visualización gráfica 3D del estado de operación de cada equipo.</div>
               </div>
-              <div className="p-3.5 rounded-xl bg-brand-lightBg border border-gray-100">
+              <div className="p-3.5 rounded-m bg-brand-lightBg border border-gray-100">
                 <div className="font-bold text-xs text-brand-darkText mb-1">Alarmas Inteligentes</div>
                 <div className="text-[11px] text-brand-grayMuted leading-normal">Notificaciones     tempranas vía correo ante anomalías operativas.</div>
               </div>
-              <div className="p-3.5 rounded-xl bg-brand-lightBg border border-gray-100">
+              <div className="p-3.5 rounded-m bg-brand-lightBg border border-gray-100">
                 <div className="font-bold text-xs text-brand-darkText mb-1">Programación Horaria</div>
                 <div className="text-[11px] text-brand-grayMuted leading-normal">Encendido y apagado optimizado por calendarios y feriados.</div>
               </div>
-              <div className="p-3.5 rounded-xl bg-brand-lightBg border border-gray-100">
+              <div className="p-3.5 rounded-m bg-brand-lightBg border border-gray-100">
                 <div className="font-bold text-xs text-brand-darkText mb-1">Historiador de Datos</div>
                 <div className="text-[11px] text-brand-grayMuted leading-normal">Tendencias para auditorías energéticas y mantenimiento predictivo.</div>
               </div>
@@ -329,7 +297,7 @@ function ServiciosP() {
               Control Digital Directo (DDC)
             </h3>
             <p className="text-xs sm:text-sm text-brand-grayMuted mb-6 leading-relaxed">
-              Programación precisa a nivel de microprocesador para controladores lógicos programables de campo. Implementamos lazos PID de respuesta rápida para modulación de válvulas y variadores de frecuencia (VFD).
+              Programación precisa de microprocesador para controladores lógicos de campo. Implementamos lazos PID de respuesta rápida para modulación de válvulas y variadores de frecuencia.
             </p>
             <ul className="space-y-3.5 mb-8">
               <li className="flex items-start gap-2.5 text-xs text-brand-darkText">
@@ -355,7 +323,7 @@ function ServiciosP() {
             </li>
           </ul>
         </div>
-        <div className="p-3.5 rounded-xl bg-brand-lightBg border border-gray-100 text-[11px]">
+        <div className="p-3.5 rounded-m bg-brand-lightBg border border-gray-100 text-[11px]">
           <span className="font-semibold text-brand-grayMuted uppercase tracking-wider block mb-1">Compatibilidad garantizada:</span>
           <span className="text-brand-darkText font-medium">Johnson Controls • Siemens • Honeywell • Schneider Electric • Distech Controls</span>
         </div>
