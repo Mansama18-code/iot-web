@@ -3,6 +3,7 @@ import Footer from '../Footer.tsx'
 import Banner from './headers/Bannerx.tsx';
 import Quienes from './quienes/quienes-1.tsx';
 import './quienes.css';
+import Heads from './head_imports.tsx';
 
 
 
@@ -12,20 +13,11 @@ function quienes() {
   return (
     <>
       <head>
-        
+          
           <meta charSet="utf-8"/>
           <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-          <title>Empresa | Ingeniería IoT - Especialistas en MEP, HVAC, BMS e IoT</title>
-          
-          <link href="https://fonts.googleapis.com" rel="preconnect"/>
-          <link crossOrigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-          
-          <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-          <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-          
-          <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-          
+          <title>Sobre Nosotros | Ingeniería IoT</title>
+          <Heads/>
       </head>
    
       

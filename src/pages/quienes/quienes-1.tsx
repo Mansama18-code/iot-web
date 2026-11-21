@@ -19,7 +19,7 @@ function quienes_1() {
                             </h2>
                         </div>
                         <p className="text-xs sm:text-sm text-brand-grayMuted max-w-md leading-relaxed">
-                            Pilares inquebrantables que guían cada cálculo térmico, esquema unifilar, integración BACnet y entrega de comisionamiento.
+                            Pilares inquebrantables que guían cada cálculo térmico, esquema unifilar, integración y entrega comisionada.
                         </p>
                     </div>
                     {/*<!-- Grid 6 Values -->*/}

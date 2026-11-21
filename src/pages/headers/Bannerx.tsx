@@ -21,7 +21,7 @@ function Banner() {
 
                         <h1 className="text-3xl sm:text-4xl lg:text-[44px] leading-tight font-bold text-brand-darkText mb-6">
                             Diseñamos e integramos soluciones para proyectos  <br/>
-                            <span className="text-brand-blueSecondary"> residenciales, comerciales </span><br/>
+                            <span className="text-brand-blueSecondary "> residenciales, comerciales </span><br/>
                             <span className="text-brand-bluePrimary"> e industriales.</span>
                         </h1>
                         {/*<p className="text-base sm:text-lg text-brand-grayMuted font-normal leading-relaxed mb-8 max-w-xl">

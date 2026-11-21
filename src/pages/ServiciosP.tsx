@@ -1,14 +1,21 @@
 import Nav from '../Nav.tsx';
 import Banner from './headers/Banner_serv.tsx';
-
+import Heads from './head_imports.tsx';
 
 function ServiciosP() {
   return (
     <>
-      <div >
+      <head>
+          
+          <meta charSet="utf-8"/>
+          <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+          <title>Servicios | Ingeniería IoT </title>
+          <Heads/>
+      </head>
+      <header >
         <Nav/>
         <Banner/>
-      </div>
+      </header>
       {/*<!-- BEGIN: SECTION 1 - Diseños MEP -->*/}
       <section className="py-16 lg:py-20 bg-brand-lightBg text-left" id="mep">
         <div className="max-w-7xl mx-auto px-6">

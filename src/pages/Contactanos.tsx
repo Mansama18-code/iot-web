@@ -12,6 +12,7 @@ import './Contactanos.css';
 //QUE MANEJE EL ENVÍO DE LOS MENSAJES.
 
 //HAMBURGER BUTTON PARA LA PARTE RESPONSIVE DEL SITIO WEB.
+import Heads from './head_imports.tsx';
 
 function Contactanos() {
   // const [count, setCount] = useState(0)
@@ -19,6 +20,13 @@ function Contactanos() {
 
   return (
     <>
+      <head>
+          
+          <meta charSet="utf-8"/>
+          <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+          <title>Contactanos | Ingeniería IoT</title>
+          <Heads/>
+      </head>
       <header className="menu-logo">
         <Nav />
         
