@@ -530,11 +530,11 @@ function ServiciosP() {
           </div>
           <div className="flex items-center gap-2">
             <span className="text-brand-accentOrange font-bold">•</span>
-            <span>ingenieria@iotpanama.com</span>
+            <span>ventas@ingenieriaiot.com</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-brand-accentOrange font-bold">•</span>
-            <span>+507 300-4567</span>
+            
           </div>
         </div>
       </div>

@@ -105,7 +105,7 @@ function quienes_1() {
                             </div>
                             <h3 className="text-base font-bold text-brand-darkText mb-2">Sostenibilidad</h3>
                             <p className="text-xs text-brand-grayMuted leading-relaxed">
-                                Reducción tangible de la huella de carbono operacional, facilitando certificaciones internacionales como LEED, EDGE y reportes corporativos ESG.
+                                Reducción tangible de la huella de carbono operacional y reportes corporativos ESG.
                             </p>
                         </div>
                     </div>
