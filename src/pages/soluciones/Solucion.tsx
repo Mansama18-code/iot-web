@@ -37,7 +37,7 @@ function Solucion() {
           </div>
         </section>
         {/* 4. DESGLOSE DETALLADO DE LAS 6 SOLUCIONES CLAVE */}
-        <section className="py-20 lg:py-28 bg-surface-container-lowest" id="catalogo-soluciones">
+        <section className="text-left py-20 lg:py-28 bg-surface-container-lowest" id="catalogo-soluciones">
           <div className="max-w-7xl mx-auto px-margin">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <span className="font-label-uppercase text-label-uppercase text-primary font-semibold tracking-wider block mb-2">CATÁLOGO ESTRATÉGICO</span>
@@ -49,7 +49,7 @@ function Solucion() {
                 </p>
             </div>
             {/* Grid of 6 High-Precision Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Solución 01: Edificios Inteligentes */}
               <div className="bg-white rounded-2xl border border-slate-200/90 shadow-soft hover:shadow-hover transition-all duration-300 flex flex-col overflow-hidden group">
                 <div className="relative h-48 overflow-hidden bg-slate-100">
@@ -64,13 +64,13 @@ function Solucion() {
                   </div>
                   <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Edificios Inteligentes</h3>
                   <p className="font-body-sm text-[13px] text-primary-container font-medium mb-4">Integración centralizada de sistemas MEP y BMS</p>
-                  {/*<!-- Pain Point Box -->*/}
+                  {/*<!-- Pain Point Box -->
                   <div className="bg-surface-container-low rounded-xl p-3.5 mb-4 border-l-4 border-error/70">
                     <span className="text-[11px] font-bold text-error tracking-wider uppercase block mb-1">El Desafío Crítico:</span>
                       <p className="font-body-sm text-[13px] text-on-surface-variant leading-relaxed">
                         Sistemas aislados (HVAC, iluminación, control de acceso) que no se comunican, provocando silos operativos, fallas no detectadas y sobrecostos.
                       </p>
-                  </div>
+                  </div>*/}
                   {/*<!-- Solution & Benefits -->*/}
                   <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 flex-grow">
                     Implementamos una plataforma unificada bajo protocolos abiertos (BACnet/IP, Modbus, MQTT) que consolida toda la operación técnica en un único panel de comando.
@@ -85,10 +85,7 @@ function Solucion() {
                       <span>-60% tiempo de respuesta a incidencias</span>
                     </li>
                   </ul>
-                  <a className="inline-flex items-center gap-2 font-button-text text-button-text text-primary hover:text-primary-container transition-colors group-hover:translate-x-1 duration-200 mt-auto" href="#contacto">
-                    <span>Cotizar integración de edificio</span>
-                    <span>→</span>
-                  </a>
+                  
                 </div>
               </div>
               {/*<!-- Solución 02: Eficiencia Energética -->*/}
@@ -105,13 +102,13 @@ function Solucion() {
                   </div>
                   <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Eficiencia Energética</h3>
                   <p className="font-body-sm text-[13px] text-tertiary-container font-medium mb-4">Monitoreo continuo y optimización de consumo</p>
-                  {/*<!-- Pain Point Box -->*/}
+                  {/*<!-- Pain Point Box -->
                   <div className="bg-surface-container-low rounded-xl p-3.5 mb-4 border-l-4 border-error/70">
                     <span className="text-[11px] font-bold text-error tracking-wider uppercase block mb-1">El Desafío Crítico:</span>
                     <p className="font-body-sm text-[13px] text-on-surface-variant leading-relaxed">
                       Facturas eléctricas elevadas, picos de demanda descontrolados y penalizaciones tarifarias recurrentes en el mercado eléctrico panameño.
                     </p>
-                  </div>
+                  </div>*/}
                   <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 flex-grow">
                     Auditoría energética automatizada, submedición por pisos o cargas críticas y algoritmos que nivelan demandas energéticas sin comprometer el confort.
                   </p>
@@ -125,10 +122,7 @@ function Solucion() {
                       <span>Datos listos para certificación LEED &amp; EDGE</span>
                     </li>
                   </ul>
-                  <a className="inline-flex items-center gap-2 font-button-text text-button-text text-tertiary-container hover:text-tertiary transition-colors group-hover:translate-x-1 duration-200 mt-auto" href="#contacto">
-                    <span>Auditar mi consumo energético</span>
-                    <span>→</span>
-                  </a>
+                  
                 </div>
               </div>
               {/* Solución 03: Automatización HVAC */}
@@ -145,13 +139,13 @@ function Solucion() {
                 </div>
                 <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Automatización HVAC</h3>
                 <p className="font-body-sm text-[13px] text-secondary font-medium mb-4">Control inteligente de climatización y equipos</p>
-                {/*<!-- Pain Point Box -->*/}
+                {/*<!-- Pain Point Box -->
                 <div className="bg-surface-container-low rounded-xl p-3.5 mb-4 border-l-4 border-error/70">
                   <span className="text-[11px] font-bold text-error tracking-wider uppercase block mb-1">El Desafío Crítico:</span>
                   <p className="font-body-sm text-[13px] text-on-surface-variant leading-relaxed">
                     Chillers y manejadoras de aire operando al 100% sin modulación, quejas recurrentes de usuarios y desgaste prematuro de compresores.
                   </p>
-                </div>
+                </div>*/}
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 flex-grow">
                   Control Digital Directo (DDC) con lazos PID sintonizados, variadores de frecuencia (VFD) y modulación de flujo según la carga térmica y ocupación real.
                 </p>
@@ -165,10 +159,7 @@ function Solucion() {
                     <span>+40% extensión en vida útil de compresores</span>
                   </li>
                 </ul>
-                <a className="inline-flex items-center gap-2 font-button-text text-button-text text-secondary hover:text-primary transition-colors group-hover:translate-x-1 duration-200 mt-auto" href="#contacto">
-                  <span>Optimizar sistema HVAC</span>
-                  <span>→</span>
-                </a>
+                
               </div>
             </div>
             {/* Solución 04: Monitoreo IoT & Telemetría */}
@@ -185,13 +176,13 @@ function Solucion() {
                 </div>
                 <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Monitoreo IoT &amp; Telemetría</h3>
                 <p className="font-body-sm text-[13px] text-primary-container font-medium mb-4">Sensores, datos y alertas operativas 24/7</p>
-                {/*<!-- Pain Point Box -->*/}
+                {/*<!-- Pain Point Box -->
                 <div className="bg-surface-container-low rounded-xl p-3.5 mb-4 border-l-4 border-error/70">
                   <span className="text-[11px] font-bold text-error tracking-wider uppercase block mb-1">El Desafío Crítico:</span>
                   <p className="font-body-sm text-[13px] text-on-surface-variant leading-relaxed">
                     Mantenimiento puramente correctivo ("apaga-fuegos") cuando una bomba se traba, se quema un motor o se inunda un cuarto técnico.
                   </p>
-                </div>
+                </div>*/}
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 flex-grow">
                   Redes inalámbricas LoRaWAN y gateways industriales que censan vibración, temperatura, fugas y calidad de aire con tableros web en tiempo real.
                 </p>
@@ -205,10 +196,7 @@ function Solucion() {
                     <span>Diagnósticos predictivos pre-falla</span>
                   </li>
                 </ul>
-                <a className="inline-flex items-center gap-2 font-button-text text-button-text text-primary hover:text-primary-container transition-colors group-hover:translate-x-1 duration-200 mt-auto" href="#contacto">
-                  <span>Implementar telemetría IoT</span>
-                  <span>→</span>
-                </a>
+                
               </div>
             </div>
             {/* Solución 05: Modernización de Instalaciones (Retrofit) */}
@@ -223,15 +211,15 @@ function Solucion() {
                 <div className="w-12 h-12 rounded-xl bg-tertiary-container/10 flex items-center justify-center text-tertiary-container mb-4">
                   <span className="material-symbols-outlined text-[28px]" data-icon="upgrade">upgrade</span>
                 </div>
-                <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Modernización de Instalaciones</h3>
+                <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Modernizar Instalaciones</h3>
                 <p className="font-body-sm text-[13px] text-tertiary-container font-medium mb-4">Retrofit tecnológico sin parar operaciones</p>
-                {/* Pain Point Box */}
+                {/* Pain Point Box 
                 <div className="bg-surface-container-low rounded-xl p-3.5 mb-4 border-l-4 border-error/70">
                   <span className="text-[11px] font-bold text-error tracking-wider uppercase block mb-1">El Desafío Crítico:</span>
                   <p className="font-body-sm text-[13px] text-on-surface-variant leading-relaxed">
                     Edificaciones de 10 a 25 años con equipamiento descontinuado, sin repuestos y con protocolos propietarios cerrados que impiden crecer.
                   </p>
-                </div>
+                </div>*/}
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 flex-grow">
                   Estrategia de Retrofit por fases: sustitución de controladores obsoletos por tecnología abierta y escalable sin interrumpir a los ocupantes.
                 </p>
@@ -245,10 +233,7 @@ function Solucion() {
                     <span>Inversión hasta 65% menor que reemplazo total</span>
                   </li>
                 </ul>
-                <a className="inline-flex items-center gap-2 font-button-text text-button-text text-tertiary-container hover:text-tertiary transition-colors group-hover:translate-x-1 duration-200 mt-auto" href="#contacto">
-                  <span>Evaluar plan de retrofit</span>
-                  <span>→</span>
-                </a>
+               
               </div>
             </div>
             {/*<!-- Solución 06: Smart Homes & Domótica Residencial -->*/}
@@ -264,14 +249,14 @@ function Solucion() {
                   <span className="material-symbols-outlined text-[28px]" data-icon="home_app_logo">home_app_logo</span>
                 </div>
                 <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-1">Smart Homes de Alto Nivel</h3>
-                  <p className="font-body-sm text-[13px] text-secondary font-medium mb-4">Automatización residencial, confort y seguridad</p>
-                  {/*<!-- Pain Point Box -->*/}
+                  <p className="font-body-sm text-[13px] text-secondary font-medium mb-4">Automatización, confort y seguridad</p>
+                  {/*<!-- Pain Point Box -->
                   <div className="bg-surface-container-low rounded-xl p-3.5 mb-4 border-l-4 border-error/70">
                     <span className="text-[11px] font-bold text-error tracking-wider uppercase block mb-1">El Desafío Crítico:</span>
                       <p className="font-body-sm text-[13px] text-on-surface-variant leading-relaxed">
                         Complejidad frustrante con múltiples mandos y apps no interconectadas para aire acondicionado, audio, persianas, cámaras e iluminación.
                       </p>
-                  </div>
+                  </div>*/}
                   <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 flex-grow">
                     Ecosistemas integrados basados en estándares de grado profesional (KNX, Crestron, Control4) adaptados al estilo de vida de residencias exclusivas.
                   </p>
@@ -285,17 +270,14 @@ function Solucion() {
                       <span>Máxima privacidad y control seguro remoto</span>
                     </li>
                   </ul>
-                  <a className="inline-flex items-center gap-2 font-button-text text-button-text text-secondary hover:text-primary transition-colors group-hover:translate-x-1 duration-200 mt-auto" href="#contacto">
-                    <span>Automatizar residencia</span>
-                    <span>→</span>
-                  </a>
+                  
                 </div>
               </div>
             </div>
           </div>
         </section>
           {/* 5. MATRIZ DE APLICABILIDAD POR SECTOR */}
-          <section className="py-20 bg-surface-container-low border-y border-outline-variant/60">
+          <section className="text-left py-20 bg-surface-container-low border-y border-outline-variant/60">
             <div className="max-w-7xl mx-auto px-margin">
               <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
                 <div>
@@ -318,7 +300,7 @@ function Solucion() {
                   <p className="font-body-sm text-body-sm text-on-surface-variant mb-4">
                   Gestión inteligente de habitaciones (GRMS). Ahorro energético en habitaciones vacías y confort óptimo en check-in.
                   </p>
-                  <span className="font-label-uppercase text-[11px] font-semibold text-primary block">Clave: VRF &amp; Sensores PIR</span>
+                  
                 </div>
               {/* Sector 2: Torres Corporativas */}
               <div className="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-soft hover:shadow-hover transition-all">
@@ -329,7 +311,7 @@ function Solucion() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4">
                   Sub-medición energética para cobros justos a inquilinos y control centralizado de chillers y ventilación mecánica.
                 </p>
-                <span className="font-label-uppercase text-[11px] font-semibold text-secondary block">Clave: BMS Central &amp; LEED</span>
+               
               </div>
               {/* Sector 3: Retail & Malls */}
               <div className="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-soft hover:shadow-hover transition-all">
@@ -340,7 +322,7 @@ function Solucion() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4">
                   Control horario de áreas comunes, control de calidad del aire interior (IAQ) y monitoreo de bombeo hidroneumático.
                 </p>
-                <span className="font-label-uppercase text-[11px] font-semibold text-tertiary-container block">Clave: Horarios &amp; Calidad Aire</span>
+               
               </div>
               {/* Sector 4: Hospitales */}
               <div className="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-soft hover:shadow-hover transition-all">
@@ -351,7 +333,7 @@ function Solucion() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4">
                   Control riguroso de presión positiva/negativa en quirófanos, filtración HEPA y monitoreo ininterrumpido de plantas de respaldo.
                 </p>
-                <span className="font-label-uppercase text-[11px] font-semibold text-red-600  block">Clave: Presión Crítica &amp; Redundancia</span>
+                
               </div>
               {/*<!-- Sector 5: Logística e Industria -->*/}
               <div className="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-soft hover:shadow-hover transition-all">
@@ -362,7 +344,7 @@ function Solucion() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4">
                   Telemetría de cuartos fríos y bodegas refrigeradas con trazabilidad de cadena de frío y alertas tempranas por falla.
                 </p>
-                <span className="font-label-uppercase text-[11px] font-semibold text-slate-800 block">Clave: Telemetría LoRaWAN &amp; Alarmas</span>
+               
               </div>
             </div>
           </div>
@@ -473,11 +455,11 @@ function Solucion() {
                 Permite que nuestro equipo de ingenieros evalúe tus instalaciones sin costo de compromiso. Te presentaremos un plan técnico claro y con retorno verificable.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
-                <a className="bg-tertiary-container hover:bg-tertiary text-on-tertiary font-button-text text-button-text px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 flex items-center gap-2 group" href="mailto:contacto@ingenieriaio.com">
+                <a className="bg-tertiary-container hover:bg-tertiary text-on-tertiary font-button-text text-button-text px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 flex items-center gap-2 group" href="/Contactanos">
                   <span>Solicitar cotización personalizada</span>
                   <span className="group-hover:translate-x-1.5 transition-transform duration-200">→</span>
                 </a>
-                <a className="border-2 border-primary-container text-white hover:bg-primary-container/20 font-button-text text-button-text px-8 py-3.5 rounded-full transition-all duration-200 flex items-center gap-2" href="tel:+5073000000">
+                <a className="border-2 border-primary-container text-white hover:bg-primary-container/20 font-button-text text-button-text px-8 py-3.5 rounded-full transition-all duration-200 flex items-center gap-2" href="/Contactanos">
                   <span className="material-symbols-outlined text-[20px]" data-icon="call">call</span>
                   <span>Agendar videollamada con un ingeniero</span>
                 </a>
