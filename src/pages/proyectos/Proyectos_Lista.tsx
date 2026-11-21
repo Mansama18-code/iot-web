@@ -11,8 +11,8 @@ function Proyectos_Lista() {
                     {/*<!-- Section subheader notice -->*/}
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-10 pb-4 border-b border-outline-variant/40">
                         <div>
-                            <span className="text-xs font-label-uppercase text-primary font-semibold tracking-wider uppercase">Fichas de Auditoría Técnica</span>
-                            <h2 className="text-headline-md font-headline-md text-on-surface mt-1">Estructura Estandarizada de Caso de Estudio</h2>
+                            <span className="text-xs font-label-uppercase text-primary font-semibold tracking-wider uppercase">Fichas de</span>
+                            <h2 className="text-headline-md font-headline-md text-on-surface mt-1">Proyectos</h2>
                         </div>
                         
                     </div>
@@ -27,17 +27,17 @@ function Proyectos_Lista() {
                                 {/*<!-- Badges -->*/}
                                 <div className="absolute top-4 left-4 flex gap-2">
                                     <span className="px-3 py-1 rounded-full text-xs font-label-uppercase bg-primary text-on-primary font-semibold tracking-wide">
-                                        AUTOMATIZACIÓN &amp; BMS
+                                        ETIQUETA #1
                                     </span>
                                 </div>
                                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
                                     <div>
                                         <p className="text-xs font-body-sm text-surface-container-high flex items-center gap-1">
                                             <span className="material-symbols-outlined text-sm text-tertiary-fixed-dim">location_on</span>
-                                            Ciudad de Panamá, Panamá
+                                            Localidad 1
                                         </p>
                                         <h3 className="text-headline-sm font-headline-sm text-white font-bold drop-shadow">
-                                        Torre Global Bank / Corporativo Clase A
+                                            Proyecto 1
                                         </h3>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ function Proyectos_Lista() {
                                         </div>
                                         <div>
                                             <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Servicio</span>
-                                            <span className="text-sm font-medium text-on-surface">Automatización &amp; Control BMS</span>
+                                            <span className="text-sm font-medium text-on-surface">Nombre del Servicio 1</span>
                                         </div>
                                     </div>
                                 {/*<!-- Alcance -->*/}
@@ -63,7 +63,7 @@ function Proyectos_Lista() {
                                         <div>
                                             <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Alcance</span>
                                             <p className="text-sm text-on-surface-variant leading-relaxed">
-                                                Centralización operativa de 3 chillers centrífugos de 450 TR, monitoreo de 32 manejadoras de aire y submedición por piso.
+                                                Descripción del Alcance
                                             </p>
                                         </div>
                                     </div>
@@ -75,9 +75,9 @@ function Proyectos_Lista() {
                                         <div>
                                             <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Tecnología</span>
                                             <div className="flex flex-wrap gap-1.5 mt-1">
-                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">BACnet/IP</span>
-                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Niagara 4</span>
-                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">DDC Schneider / JCI</span>
+                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech1</span>
+                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech2</span>
+                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech3</span>
                                             </div>
                                         </div>
                                     </div>
@@ -89,17 +89,11 @@ function Proyectos_Lista() {
                                         <span className="text-xs font-label-uppercase text-tertiary font-bold tracking-wide">RESULTADO COMPROBADO</span>
                                     </div>
                                     <p className="text-sm font-semibold text-on-surface">
-                                                    31% de reducción comprobada en consumo de kWh y respuesta a incidencias en menos de 10 minutos.
+                                                    Descripción del Resultado...
                                     </p>
                                 </div>
                                 {/*<!-- Footer Action -->*/}
-                                <div className="pt-2 flex items-center justify-between border-t border-outline-variant/30">
-                                    <span className="text-xs text-outline font-body-sm">Auditoría Post-Entrega: 180 días</span>
-                                    <a className="text-button-text font-button-text text-sm text-primary hover:text-secondary inline-flex items-center gap-1 group" href="#contacto">
-                                        <span>Ver ficha técnica</span>
-                                        <span className="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                                    </a>
-                                </div>
+                               
                             </div>
                         </article>
                         {/*<!-- PROYECTO 2 -->*/}
@@ -111,17 +105,17 @@ function Proyectos_Lista() {
                                     {/*<!-- Badges -->*/}
                                     <div className="absolute top-4 left-4 flex gap-2">
                                         <span className="px-3 py-1 rounded-full text-xs font-label-uppercase bg-[#0F4C81] text-surface-bright font-semibold tracking-wide">
-                                            BIM &amp; COORDINACIÓN MEP
+                                           ETIQUETA #2
                                         </span>
                                     </div>
                                     <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
                                         <div>
                                             <p className="text-xs font-body-sm text-surface-container-high flex items-center gap-1">
                                                 <span className="material-symbols-outlined text-sm text-tertiary-fixed-dim">location_on</span>
-                                                Costa del Este, Panamá
+                                                Localidad 2
                                             </p>
                                             <h3 className="text-headline-sm font-headline-sm text-white font-bold drop-shadow">
-                                                Hospital Metropolitano San Cristóbal / Salud Crítica
+                                                Proyecto 2
                                             </h3>
                                         </div>
                                     </div>
@@ -136,7 +130,7 @@ function Proyectos_Lista() {
                                             </div>
                                             <div>
                                                 <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Servicio</span>
-                                                <span className="text-sm font-medium text-on-surface">Modelado BIM LOD 400 &amp; Coordinación MEP</span>
+                                                <span className="text-sm font-medium text-on-surface">Nombre del Servicio 2</span>
                                             </div>
                                         </div>
                                         {/*<!-- Alcance -->*/}
@@ -147,7 +141,7 @@ function Proyectos_Lista() {
                                             <div>
                                                 <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Alcance</span>
                                                 <p className="text-sm text-on-surface-variant leading-relaxed">
-                                                    Virtualización constructiva sin colisiones para gases medicinales, ductos HVAC con presión diferencial en 8 quirófanos y redes eléctricas de emergencia.
+                                                    Descripción del Alcance 2
                                                 </p>
                                             </div>
                                         </div>
@@ -173,17 +167,11 @@ function Proyectos_Lista() {
                                             <span className="text-xs font-label-uppercase text-tertiary font-bold tracking-wide">RESULTADO COMPROBADO</span>
                                         </div>
                                         <p className="text-sm font-semibold text-on-surface">
-                                            Cero colisiones críticas en obra física (Clash-Free) y ahorro estimado de $120,000 en reprocesos de obra.
+                                            Descripción del Resultado 2
                                         </p>
                                     </div>
                                     {/*<!-- Footer Action -->*/}
-                                    <div className="pt-2 flex items-center justify-between border-t border-outline-variant/30">
-                                        <span className="text-xs text-outline font-body-sm">Validación: LOD 400 As-Built</span>
-                                        <a className="text-button-text font-button-text text-sm text-primary hover:text-secondary inline-flex items-center gap-1 group" href="#contacto">
-                                            <span>Ver ficha técnica</span>
-                                            <span className="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                         </article>  
                         
@@ -196,17 +184,17 @@ function Proyectos_Lista() {
                                 {/*<!-- Badges -->*/}
                                 <div className="absolute top-4 left-4 flex gap-2">
                                     <span className="px-3 py-1 rounded-full text-xs font-label-uppercase bg-primary text-on-primary font-semibold tracking-wide">
-                                        RETROFIT TECNOLÓGICO BMS
+                                        ETIQUETA #3
                                     </span>
                                 </div>
                                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
                                     <div>
                                         <p className="text-xs font-body-sm text-surface-container-high flex items-center gap-1">
                                             <span className="material-symbols-outlined text-sm text-tertiary-fixed-dim">location_on</span>
-                                                Punta Pacífica, Panamá
+                                                Localidad 3
                                         </p>
                                         <h3 className="text-headline-sm font-headline-sm text-white font-bold drop-shadow">
-                                            Mall Multiplaza Pacific - Ala Ejecutiva / Comercial
+                                            Proyecto 3
                                         </h3>
                                     </div>
                                 </div>
@@ -221,7 +209,7 @@ function Proyectos_Lista() {
                                         </div>
                                         <div>
                                         <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Servicio</span>
-                                        <span className="text-sm font-medium text-on-surface">Retrofit Tecnológico &amp; Control DDC</span>
+                                        <span className="text-sm font-medium text-on-surface">Nombre del Servicio 3</span>
                                     </div>
                                 </div>
                                 {/*<!-- Alcance -->*/}
@@ -232,7 +220,7 @@ function Proyectos_Lista() {
                                     <div>
                                         <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Alcance</span>
                                         <p className="text-sm text-on-surface-variant leading-relaxed">
-                                            Sustitución de controladores neumáticos obsoletos por microprocesadores abiertos DDC en planta de agua helada y 45 cajas VAV sin interrumpir operaciones comerciales.
+                                            Descripción del Alcance 3
                                         </p>
                                     </div>
                                 </div>
@@ -244,9 +232,9 @@ function Proyectos_Lista() {
                                     <div>
                                         <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Tecnología</span>
                                         <div className="flex flex-wrap gap-1.5 mt-1">
-                                            <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">BACnet MS/TP &amp; IP</span>
-                                            <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Variadores VFD</span>
-                                            <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Lazos PID Sintonizados</span>
+                                            <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech1</span>
+                                            <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech2</span>
+                                            <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech3</span>
                                         </div>
                                     </div>
                                 </div>
@@ -258,17 +246,11 @@ function Proyectos_Lista() {
                                     <span className="text-xs font-label-uppercase text-tertiary font-bold tracking-wide">RESULTADO COMPROBADO</span>
                                 </div>
                                     <p className="text-sm font-semibold text-on-surface">
-                                        Amortización de la inversión en 14 meses y eliminación total de zonas sobreenfriadas en pasillos comunes.
+                                        Descripción del Resultado 3
                                     </p>
                                 </div>
                                 {/*<!-- Footer Action -->*/}
-                                <div className="pt-2 flex items-center justify-between border-t border-outline-variant/30">
-                                    <span className="text-xs text-outline font-body-sm">Cero Tiempo de Inactividad Comercial</span>
-                                    <a className="text-button-text font-button-text text-sm text-primary hover:text-secondary inline-flex items-center gap-1 group" href="#contacto">
-                                        <span>Ver ficha técnica</span>
-                                        <span className="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                                    </a>
-                                </div>
+                                
                             </div>
                         </article>
                     {/*<!-- PROYECTO 4 -->*/}
@@ -280,17 +262,17 @@ function Proyectos_Lista() {
                             {/*<!-- Badges -->*/}
                                 <div className="absolute top-4 left-4 flex gap-2">
                                     <span className="px-3 py-1 rounded-full text-xs font-label-uppercase bg-tertiary-container text-on-tertiary font-semibold tracking-wide">
-                                        CALIDAD DE AIRE &amp; ESG
+                                        ETIQUETA #4
                                     </span>
                                 </div>
                                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
                                     <div>
                                         <p className="text-xs font-body-sm text-surface-container-high flex items-center gap-1">
                                             <span className="material-symbols-outlined text-sm text-tertiary-fixed-dim">location_on</span>
-                                                Costa del Este, Panamá
+                                                Localidad 4
                                         </p>
                                         <h3 className="text-headline-sm font-headline-sm text-white font-bold drop-shadow">
-                                            Complejo Corporativo Costa del Este / Sostenibilidad LEED
+                                            Proyecto 4
                                         </h3>
                                     </div>
                                 </div>
@@ -305,7 +287,7 @@ function Proyectos_Lista() {
                                         </div>
                                         <div>
                                             <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Servicio</span>
-                                            <span className="text-sm font-medium text-on-surface">Telemetría IoT &amp; Gobernanza ESG</span>
+                                            <span className="text-sm font-medium text-on-surface">Descripción del Alcance 4</span>
                                         </div>
                                     </div>
                                     {/*<!-- Alcance -->*/}
@@ -316,7 +298,7 @@ function Proyectos_Lista() {
                                         <div>
                                             <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Alcance</span>
                                             <p className="text-sm text-on-surface-variant leading-relaxed">
-                                                Integración de 65 estaciones de calidad de aire interior (IAQ: PM2.5, CO2, TVOC, HR) acopladas a la renovación forzada de aire exterior de los sistemas de ventilación.
+                                                Descripción del Resultado 4
                                             </p>
                                         </div>
                                     </div>
@@ -328,9 +310,9 @@ function Proyectos_Lista() {
                                         <div>
                                             <span className="text-xs font-label-uppercase text-outline font-semibold uppercase block">Tecnología</span>
                                             <div className="flex flex-wrap gap-1.5 mt-1">
-                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Sensores Modbus/BACnet</span>
-                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Cloud API REST</span>
-                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">LEED v4.1 O+M</span>
+                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech 1</span>
+                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech 2</span>
+                                                <span className="px-2 py-0.5 rounded bg-surface-container text-xs font-body-sm text-primary font-medium">Tech 3</span>
                                             </div>
                                         </div>
                                     </div>
@@ -342,17 +324,11 @@ function Proyectos_Lista() {
                                         <span className="text-xs font-label-uppercase text-tertiary font-bold tracking-wide">RESULTADO COMPROBADO</span>
                                     </div>
                                     <p className="text-sm font-semibold text-on-surface">
-                                        Obtención de certificación LEED Gold y disminución comprobada del absentismo reportado en oficinas de arrendatarios.
+                                        Descripción del Resultado 4
                                     </p>
                                 </div>
                                 {/*<!-- Footer Action -->*/}
-                                <div className="pt-2 flex items-center justify-between border-t border-outline-variant/30">
-                                    <span className="text-xs text-outline font-body-sm">Acreditación: LEED Gold Certified</span>
-                                    <a className="text-button-text font-button-text text-sm text-primary hover:text-secondary inline-flex items-center gap-1 group" href="#contacto">
-                                        <span>Ver ficha técnica</span>
-                                        <span className="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                                    </a>
-                                </div>
+                                
                             </div>    
                         </article>
                     </div>
