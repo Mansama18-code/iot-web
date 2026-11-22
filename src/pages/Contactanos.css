@@ -74,7 +74,7 @@ label {
 @media screen and (max-width: 940px) {
   
 
-#form-contacto input,#servicios, #form-contacto textarea, button {
+#form-contacto input, #form-contacto textarea, button {
     width: 90%;
   
 }
